@@ -1,5 +1,6 @@
 {
-  "name": "resume",
+  "name": "krekle.github.io",
+  "homepage" : "http://krekle.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
