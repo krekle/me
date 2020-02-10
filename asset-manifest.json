@@ -1,13 +1,13 @@
 {
-  "main.css": "/krekle/static/css/main.6bb98547.chunk.css",
-  "main.js": "/krekle/static/js/main.02385378.chunk.js",
-  "main.js.map": "/krekle/static/js/main.02385378.chunk.js.map",
-  "static/js/1.63a8f196.chunk.js": "/krekle/static/js/1.63a8f196.chunk.js",
-  "static/js/1.63a8f196.chunk.js.map": "/krekle/static/js/1.63a8f196.chunk.js.map",
-  "runtime~main.js": "/krekle/static/js/runtime~main.03656dd7.js",
-  "runtime~main.js.map": "/krekle/static/js/runtime~main.03656dd7.js.map",
-  "static/css/main.6bb98547.chunk.css.map": "/krekle/static/css/main.6bb98547.chunk.css.map",
-  "index.html": "/krekle/index.html",
-  "precache-manifest.e48754f272bdf3a5173d2b9d09e05284.js": "/krekle/precache-manifest.e48754f272bdf3a5173d2b9d09e05284.js",
-  "service-worker.js": "/krekle/service-worker.js"
+  "main.css": "/me/static/css/main.6bb98547.chunk.css",
+  "main.js": "/me/static/js/main.86f4c431.chunk.js",
+  "main.js.map": "/me/static/js/main.86f4c431.chunk.js.map",
+  "static/js/1.63a8f196.chunk.js": "/me/static/js/1.63a8f196.chunk.js",
+  "static/js/1.63a8f196.chunk.js.map": "/me/static/js/1.63a8f196.chunk.js.map",
+  "runtime~main.js": "/me/static/js/runtime~main.f4ae667e.js",
+  "runtime~main.js.map": "/me/static/js/runtime~main.f4ae667e.js.map",
+  "static/css/main.6bb98547.chunk.css.map": "/me/static/css/main.6bb98547.chunk.css.map",
+  "index.html": "/me/index.html",
+  "precache-manifest.f7fbf4b17f9fe604de134475735b7374.js": "/me/precache-manifest.f7fbf4b17f9fe604de134475735b7374.js",
+  "service-worker.js": "/me/service-worker.js"
 }
