@@ -4,10 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "fsevents": "^2.1.2",
     "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.1.1"
+    "react-dom": "^16.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +26,8 @@
   ],
   "devDependencies": {
     "gh-pages": "^2.2.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^1.2.4"
   }
 }
