@@ -24,7 +24,7 @@ export default class Header extends Component {
                <h1 className="responsive-headline">Kristian Ekle.</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>
                 Utvikler med erfaring fra roller som Arkitekt og Data Scientist.<br/>
-                Jobber som freelance / selvstendig it-konsulent og kan engasjeres for det aller fleste typer oppdrag innen softwareutvikling.
+                Jobber som freelance / selvstendig it-konsulent og kan engasjeres for de aller fleste typer oppdrag innen softwareutvikling.
                </h3>
                <hr/>
                <ul className="social">

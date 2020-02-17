@@ -157,6 +157,11 @@ let resumeData = {
   ],
   "portfolio": [
     {
+      "name": "Verktøy for visualisering av potensielle feil på spornettet",
+      "description": "Verktøy for visualisering av potensielle feil på spornettet",
+      "imgurl": "images/portfolio/geofeil.jpg"
+    },
+    {
       "name": "Verktøy for trening og visualisering av modeller",
       "description": "Optimalisering av Rangering og Dispatching av tbanevogner",
       "imgurl": "images/portfolio/base-agent.gif"
@@ -172,6 +177,11 @@ let resumeData = {
       "imgurl": "images/portfolio/rl-sporveien6.gif"
     },
     {
+      "name": "Overvåkning av sensordata",
+      "description": "Overvåkning av sporgeometri for tbanenettet",
+      "imgurl": "images/portfolio/geometri.jpg"
+    },
+    {
       "name": "NTNUi Squash",
       "description": "CMS og medlemsside for NTNUi Squash",
       "imgurl": "images/portfolio/ntnuisquash.png"
@@ -180,17 +190,12 @@ let resumeData = {
       "name": "NTNUi Dans",
       "description": "Side for påmelding, innhold og betaling for NTNUi Dans",
       "imgurl": "images/portfolio/ntnuidans.png"
-    }
-  ],
-  "testimonials": [
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
     },
     {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
-    }
+      "name": "Prediktiv vedlikehold av Sporvekslere",
+      "description": "Analyse og varsling av feil på sporvekslere",
+      "imgurl": "images/portfolio/psv.jpg"
+    },
   ]
 }
 
