@@ -194,7 +194,7 @@ let resumeData = {
     {
       "name": "Prediktiv vedlikehold av Sporvekslere",
       "description": "Analyse og varsling av feil på sporvekslere",
-      "imgurl": "images/portfolio/psv.jpg"
+      "imgurl": "images/portfolio/psv.JPG"
     },
   ]
 }
