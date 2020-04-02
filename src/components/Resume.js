@@ -12,6 +12,8 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
+            Last ned fullstendig CV i pdf <a href="CV_KristianEkle.pdf">her</a>.
+
             {
               resumeData.projects && resumeData.projects.map((item) => {
                 return (
@@ -26,16 +28,16 @@ export default class Resume extends Component {
                         {item.Description}
                       </p>
                       {item.Tech &&
-                      <div className="chips-dus">
-                        {item.Tech.map((tech) => <div className="chip dus">{tech}</div>)}
-                      </div>
+                        <div className="chips-dus">
+                          {item.Tech.map((tech) => <div className="chip dus">{tech}</div>)}
+                        </div>
                       }
                       {/*item.Roles &&
                       <div className="chips">
                         {item.Roles.map((role) => <div className="chip">{role}</div>)}
                       </div>
                       */}
-                      
+
                     </div>
                   </div>
                 )

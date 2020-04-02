@@ -9,6 +9,11 @@ let resumeData = {
       "name": "github",
       "url": "http://github.com/krekle",
       "className": "fa fa-github"
+    },
+    {
+      "name": "cv",
+      "url": "CV_KristianEkle.pdf",
+      "className": "fa fa-file-o"
     }
   ],
   "projects": [
