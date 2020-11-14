@@ -40,7 +40,7 @@ export default class Header extends Component {
                   }
                </ul>
             </div>
-            <p>Ledig for nytt oppdrag fra 01.05.2020</p>
+            <p>For øyeblikket engasjert på prosjekt hos Buypass på ubestemt tid</p>
          </div>
 
          <p className="scrolldown">
