@@ -19,18 +19,18 @@ let resumeData = {
   "projects": [
     {
       "CompanyName": "Buypass",
-      "ProjectName": "Fido2 autentisering og brukerhåndtering for helse- og farmasisektoren",
+      "ProjectName": "Buypass Identity Fido2 og brukerhåndtering for kommune, helse og farmasisektoren",
       "Roles": ['Utvikler'],
-      "Tech": ['Web Components', 'Java', 'Spring-Boot', 'OIDC', 'Fido2', 'Rancher', 'Docker', 'typescript', 'LDAP', 'git', 'gitlab', 'gitlab-pipelines'],
+      "Tech": ['Web Components', 'Java', 'Spring-Boot', 'OIDC', 'Fido2', 'Rancher', 'Docker', 'Kubernetes', 'typescript', 'LDAP', 'git', 'gitlab', 'gitlab-pipelines', 'Logstash', 'Elasticsearch', 'Kafka'],
       "Start": "01.09.2019",
-      "End": "ongoing",
-      "Description": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Fido2 er en ny standard for passordløs autentisering på web. Buypass leverer en løsning for autentisering og brukerhåndtering hvor man kan bruke en fysisk nøkkel til å logge på systemer. Løsningen er levert hos flere kunder i helse- og farmasisektoren. Kristian jobbet som utvikler i leveransen av dette systemet, han jobbet primært på web applikasjoner for styring av fido2-nøkler, personalia og id-kontroll av personell."
+      "End": "01.05.2023",
+      "Description": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Fido2 er en ny standard for passordløs autentisering på web. Buypass leverer en løsning for autentisering og brukerhåndtering hvor man kan bruke en fysisk nøkkel til å logge på systemer. Løsningen er levert hos flere kunder i kommune- helse- og farmasisektoren. Kristian jobbet som utvikler av dette systemet, han jobbet primært på web applikasjoner for styring av fido2-nøkler, personalia og id-kontroll av personell. Kristian jobbet også med event systemet som sendte meldinger over kafka til logstash og videre til elasticsearch. Meldingene ble brukt til rapportering og fakturering."
     },
     {
       "CompanyName": "Buypass",
       "ProjectName": "Id-kontroll med digital passleser",
       "Roles": ['Utvikler'],
-      "Tech": ['React', 'Java', 'Spring-Boot', 'Rancher', 'Docker', 'typescript', 'OIDC', 'git', 'gitlab', 'gitlab-pipelines'],
+      "Tech": ['React', 'Java', 'Spring-Boot', 'Rancher', 'Docker', 'Docker-compose', 'typescript', 'OIDC', 'git', 'gitlab', 'gitlab-pipelines'],
       "Start": "01.05.2020",
       "End": "01.09.2020",
       "Description": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Løsningen for digital id-kontroll ble laget på bestilling fra digitaliserings direktoratet som et alternativ til fysisk oppmøte, som var relevant under covid19 pandemien. Kristian jobbet som utvikler med ansvar for web-klient og api-laget for løsningen. Løsningen ble brukt som alternativ autentiseringsinstrument på feks nav.no."

@@ -17,12 +17,17 @@ export default class About extends Component {
                      Har en mastergrad i informatikk fra NTNU med spesialisering i kunstig intelligens.<br />
                   </p>
                   <p>
-                     Fullstackutvikler og data scientist med bred erfaring fra blant annet java, python og c#, samt Angular og React.
-                     Trives med arkitektarbeid og vil gjerne jobbe med features og problemer fra konsept til kjørende løsning i skyen eller on-premise.
+                     Fullstackutvikler med bred erfaring fra blant annet java, python og c#, samt Angular og React.
+                     Jobber gjerne med alle lag i stacken; frontend, backend, men også infrastruktur og jobber gjerne med features og problemer fra konsept til kjørende løsning.
                   <br /> <br />
-                  Han trives med og har erfaring i å jobbe tett sammen med foretningen for å utvikle løsninger som er tydelig plassert i verdikjeden. I den forbindelse har Kristian erfaring med å jobbe brukersentrert i prosjekter med mye endring.
-                  Kristian er opptatt av å levere verdi for sine kunder. Han har fokus på å levere fra seg løsninger som minimerer løpende kostnader og som passer inn hos kundens eksisterende it-infrastruktur.
-               </p>
+
+                  Kristian liker godt å sette seg inn i nye spennende teknologier og verktøy, han rekker gjerne opp hånden dersom det kreves at noe nytt læres eller utforskes for at teamet skal lykkes.
+                  <br></br>
+                  <br></br>
+
+                  Han opptatt av- og har erfaring i å jobbe tett sammen med foretningen for å utvikle løsninger som er tydelig plassert i verdikjeden. I den forbindelse har Kristian erfaring med å jobbe brukersentrert i prosjekter med mye endring.
+                  Kristian er opptatt av å levere verdi for sine kunder. Han har fokus på å levere fra seg vedlikeholdbare løsninger som minimerer løpende kostnader og som passer inn hos kundens eksisterende infrastruktur og portefølje.
+                  </p>
 
                   <div className="row">
 
