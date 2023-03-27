@@ -14,6 +14,14 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
+                <h4><a href="mailto:kristian.ekle@fyrconsulting.no">kristian.ekle@fyrconsulting.no</a>
+                </h4>
+              </div>
+            </aside>
+          </div>
+          <div className="row">
+            <aside className="eigth columns footer-widgets">
+              <div className="widget">
                 <h4><a href="https://www.linkedin.com/in/kristian-ekle-3150836b/">Linkedin</a>
                 </h4>
               </div>
