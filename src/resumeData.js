@@ -226,6 +226,11 @@ let resumeData = {
       "description": "Analyse og varsling av feil på sporvekslere",
       "imgurl": "images/portfolio/psv.jpg"
     },
+    {
+      "name": "Pålogging med Buypass Identity & passordløs FIDO2-teknologi hos Altinn",
+      "description": "Påloggingsskjerm som bruker Buypass Identity & passordløs FIDO2-teknologi ",
+      "imgurl": "images/portfolio/bpaltinn.png"
+    },
   ]
 }
 
