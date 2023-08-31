@@ -13,7 +13,7 @@ let resumeData = {
     {
       "name": "cv",
       "url": "CV_KristianEkle.pdf",
-      "className": "fa fa-file-o"
+      "className": "fa fa-file-pdf-o"
     }
   ],
   "projects": [
@@ -21,7 +21,7 @@ let resumeData = {
       "CompanyName": "Buypass",
       "ProjectName": "Buypass Identity Fido2 og brukerhåndtering for kommune, helse og farmasisektoren",
       "Roles": ['Utvikler'],
-      "Tech": ['Web Components', 'Java', 'Spring-Boot', 'OIDC', 'Fido2', 'Rancher', 'Docker', 'Kubernetes', 'typescript', 'LDAP', 'git', 'gitlab', 'gitlab-pipelines', 'Logstash', 'Elasticsearch', 'Kafka'],
+      "Tech": ['Web Components', 'Java', 'Spring-Boot', 'Spring security', 'OIDC', 'Fido2', 'Rancher', 'Docker', 'Kubernetes', 'typescript', 'LDAP', 'git', 'gitlab', 'gitlab-pipelines', 'CI/CD', 'Logstash', 'Elasticsearch', 'Kafka', 'Azure', 'Blob Storage', 'Nginx'],
       "Start": "01.09.2019",
       "End": "01.05.2023",
       "Description": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Fido2 er en ny standard for passordløs autentisering på web. Buypass leverer en løsning for autentisering og brukerhåndtering hvor man kan bruke en fysisk nøkkel til å logge på systemer. Løsningen er levert hos flere kunder i kommune- helse- og farmasisektoren. Kristian jobbet som utvikler av dette systemet, han jobbet primært på web applikasjoner for styring av fido2-nøkler, personalia og id-kontroll av personell. Kristian jobbet også med event systemet som sendte meldinger over kafka til logstash og videre til elasticsearch. Meldingene ble brukt til rapportering og fakturering."
