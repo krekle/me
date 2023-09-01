@@ -209,7 +209,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #aaaaaa;
 }
 #about .profile-pic {
    position: relative;
@@ -260,12 +260,23 @@ ul#nav li.current a { color: #F06000; }
   line-height: 2.2em;
 }
 
-.feature > h6{
+.feature-title {
+  display: flex;
+  gap: 5px;
+}
+
+.feature-title > i {
+  align-self: center;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.feature-title > h6{
   color: #FFFFFF;
   cursor: pointer;
 }
 
-.feature > h6:hover{
+.feature-title > h6:hover{
   color: #FFFFFF;
   cursor: pointer;
   text-decoration: underline;
