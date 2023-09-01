@@ -838,3 +838,13 @@ properly.
 .project-title {
     margin-top: 30px;
 }
+
+.project-roles {
+    margin: -1em 0 2em 0;
+    font-style: italic;
+}
+
+.project-role {
+    margin-right: 10px;
+    font-family: 'opensans-light';
+}
