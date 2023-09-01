@@ -242,8 +242,6 @@ ul#nav li.current a { color: #F06000; }
 
 #featured {
   background: rgb(43,43,43);
-background: linear-gradient(180deg, rgba(43,43,43,1) 77%, rgba(240,96,0,0.279171043417367) 94%, rgba(255,255,255,1) 96%);
-
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
