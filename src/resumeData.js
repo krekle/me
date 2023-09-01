@@ -16,15 +16,27 @@ let resumeData = {
       "className": "fa fa-file-pdf-o"
     }
   ],
+  "featured": [
+    {"Name": "Java", "Description": "Kristian har erfaring med Java fra sin tid på NTNU og i sitt arbeid hos Visma og Buypass AS. Han har god kjennskap til SpringBoot, som han blant annet har brukt til å skrive mange mikrotjenester og frontends med ulike formål og mekanismer som APIer, autentisering, proxy, database, osv."},
+    {"Name": "JavaScript", "Description": "Kristian har mye erfaring med JavaScript fra utdannelsen og flere kundeprosjekter. Blant annet i form av frontendrammeverk som React eller Angular, og i utviklingsmiljø som bruker teknologi og byggverktøy som TypeScript, npm, lintere og automatiserte tester."},
+    {"Name": "C# & .NET", "Description": "Kristian jobbet tidligere i en C#/.NET avdeling i Bouvet og bidro mye til fagmiljøet rundt Azure og Microsoft-teknologier. Han er godt kjent med C#, .NET, nuget og Azure fra flere tidligere prosjekter hos Sporveien og Avinor. Han har blant annet levert løsninger til backend APIer, Windows services, samt kalkulasjoner i Azure Functions, med C# og .NET core."},
+    {"Name": "Python", "Description": "Kristian har brukt Python i flere prosjekter hos Sporveien; til maskinlæring og optimaliseringsoppgaver, APIer og kalkulasjoner i AWS Lamdas og Azure Functions. Han har også erfaring med Django, Flask og Bottle til hobbyprosjekter og fra studietiden, blant annet for utvikling av nettsider til linjeforeningen/NTNUI-grupper."},
+    {"Name": "Infrastruktur og CI/CD", "Description": "I de fleste prosjektene Kristian har vært en del av har han hatt ansvaret for eller bidratt i utvikling av CI/CD pipelines, enten via script i Jenkins, i Azure DevOps eller i GitLab pipelines. Han tar ofte ansvar for deployment av applikasjoner og har erfaring med å prodsette løsninger on-prem eller i skyen med Docker/Kubernetes"},
+  ],
   "projects": [
     {
       "CompanyName": "Buypass",
       "ProjectName": "Buypass Identity Fido2 og brukerhåndtering for kommune, helse og farmasisektoren",
-      "Roles": ['Utvikler'],
+      "ProjectDescription": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Fido2 er en ny standard for passordløs autentisering på web. Buypass leverer en løsning for autentisering og brukerhåndtering hvor man kan bruke en fysisk nøkkel til å logge på systemer. Løsningen er levert hos flere kunder i kommune- helse- og farmasisektoren. Løsningen gjør det mulig feks logge på statlige tjenester via med FIDO2-nøkkel via ID-porten",
+      "Roles": [
+        {'Name': 'Frontendansvarlig', 'Description': 'Kristian var ansvarlig for frontend i sitt team hos Buypass. I denne rollen utviklet han React applikasjoner, "vanilla" Javascript componenter i frontend for MVC løsninger og gjenbrukbare komponentbiblioteker i Web Components som resten av teamet kunne bruke. Han samarbeidet også mye med UX of forretning for å lage brukervennlige og estetiske skjermer. Han deltok også på frontendforum, som var et initiativ til samles rundt et felles designsystem laget i Figma, Storybook og React'}, 
+        {'Name': 'Fullstackutvikler', 'Description': 'Som fullstackutvikler jobbet Kristian med alle lag i teknologistacken, han lagde apper i JavaScript og React, backend apier, mikroservices og MVC løsninger i Spring-Boot, samt docker/kubernetes og nginx filservere. Han jobbet også en del med eventer i kafka, logstash og elasticsearch til auditlogging og rapporter.'},
+      ],
+      "Contribution": "Kristian jobbet som utvikler av systemet, han jobbet primært på web applikasjoner for styring av fido2-nøkler, personalia og id-kontroll av personell. Men og en del med event systemet som sendte meldinger over kafka til logstash og videre til elasticsearch. Meldingene ble brukt til rapportering og fakturering. Han bidro også med produksjonsetting, konfigureringg og monitorering av løsningene",
       "Tech": ['Web Components', 'Java', 'Spring-Boot', 'Spring security', 'OIDC', 'Fido2', 'Rancher', 'Docker', 'Kubernetes', 'typescript', 'LDAP', 'git', 'gitlab', 'gitlab-pipelines', 'CI/CD', 'Logstash', 'Elasticsearch', 'Kafka', 'Azure', 'Blob Storage', 'Nginx'],
       "Start": "01.09.2019",
       "End": "01.05.2023",
-      "Description": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Fido2 er en ny standard for passordløs autentisering på web. Buypass leverer en løsning for autentisering og brukerhåndtering hvor man kan bruke en fysisk nøkkel til å logge på systemer. Løsningen er levert hos flere kunder i kommune- helse- og farmasisektoren. Kristian jobbet som utvikler av dette systemet, han jobbet primært på web applikasjoner for styring av fido2-nøkler, personalia og id-kontroll av personell. Kristian jobbet også med event systemet som sendte meldinger over kafka til logstash og videre til elasticsearch. Meldingene ble brukt til rapportering og fakturering."
+      "version": 2
     },
     {
       "CompanyName": "Buypass",

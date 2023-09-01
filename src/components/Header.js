@@ -12,7 +12,8 @@ export default class Header extends Component {
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Hjem</a></li>
                <li><a className="smoothscroll" href="#about">Om</a></li>
-             <li><a className="smoothscroll" href="#resume">CV</a></li>
+               <li><a className="smoothscroll" href="#featured">Kompetanse</a></li>
+               <li><a className="smoothscroll" href="#resume">CV</a></li>
                <li><a className="smoothscroll" href="#portfolio">Portefølje</a></li>
                <li><a className="smoothscroll" href="#contact">Kontakt</a></li>
             </ul>
@@ -24,7 +25,7 @@ export default class Header extends Component {
                <h1 className="responsive-headline">Kristian Ekle.</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>
                 Fullstackutvikler med skaperglede for software<br/>
-                Daglig leder / senior it-konsulent i Fyr Consulting AS.
+                Daglig leder / Senior IT-konsulent i Fyr Consulting AS.
                </h3>
                <hr/>
                <ul className="social">
@@ -40,7 +41,7 @@ export default class Header extends Component {
                   }
                </ul>
             </div>
-            <p>For øyeblikket på pappaperm sammen med Iben, ledig for nytt oppdrag September 2023</p>
+            <p>For tiden på pappaperm med Iben, ledig for nytt oppdrag September 2023</p>
          </div>
 
          <p className="scrolldown">

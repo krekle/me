@@ -12,10 +12,57 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            Last ned fullstendig CV i pdf <a href="CV_KristianEkle.pdf">her</a>.
 
             {
               resumeData.projects && resumeData.projects.map((item) => {
+
+                // new resume version
+                if (item.version && item.version == 2) {
+                  return (
+                    <div className="row item project">
+                      <div className="twelve columns">
+                        <h3 className="project-title">{item.ProjectName}</h3>
+                        <p className="details">
+                          <h5>{item.CompanyName}</h5>
+                          <em className="date">{item.Start} <span>&bull;</span> {item.End}</em>
+                        </p>
+                        <div className="project-roles">
+                          {item.Roles.map((role) => <em className="project-role">{role.Name}</em>)}
+                        </div>
+                        <p>
+                          {item.ProjectDescription}
+                        </p>
+
+                        <p>
+                          {item.Contribution}
+                        </p>
+
+                        {item.Roles.map((role) => (
+                          <div>
+                            <h6>{role.Name}</h6>
+                            <p>
+                              {role.Description}
+                            </p>
+                          </div>
+                          )
+                        )}
+                        {item.Tech &&
+                          <div className="chips-dus">
+                            {item.Tech.map((tech) => <div className="chip dus">{tech}</div>)}
+                          </div>
+                        }
+                        {/*item.Roles &&
+                        <div className="chips">
+                          {item.Roles.map((role) => <div className="chip">{role}</div>)}
+                        </div>
+                        */}
+  
+                      </div>
+                    </div>
+                  )
+                }
+
+                // Old resume version
                 return (
                   <div className="row item project">
                     <div className="twelve columns">

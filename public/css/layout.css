@@ -9,6 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
+   c-2. Featured Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
@@ -235,7 +236,54 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* c-2. Featured section
+/* ------------------------------------------------------------------ */
 
+#featured {
+  background: rgb(43,43,43);
+background: linear-gradient(180deg, rgba(43,43,43,1) 77%, rgba(240,96,0,0.279171043417367) 94%, rgba(255,255,255,1) 96%);
+
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+
+#featured h1 {
+  font: 18px/24px 'opensans-bold', sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#featured h1 span {
+  border-bottom: 3px solid #11ABB0;
+  padding-bottom: 6px;
+  line-height: 2.2em;
+}
+
+.feature > h6{
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.feature > h6:hover{
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.feature > .collapse {
+  visibility: collapse;
+  display: none;
+  height: 0px;
+}
+
+.feature > .expand {
+  overflow: hidden;
+  visibility: visible;
+  transition: height 200ms;
+}
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */

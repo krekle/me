@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react": "^18.2.21",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "3.4.1"
