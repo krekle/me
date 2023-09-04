@@ -147,7 +147,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+   color: #808080;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -819,20 +819,19 @@ properly.
     font-size: 12px;
     background: #11abb05c;
     color: white;
-    margin-right: 5px;
-    margin-top: 5px;
 }
 
 .chips-dus {
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+    gap: 5px;
 }
 
 .dus {
-    background: #61793c4f !important;
+    background: #11abb07d !important;
     max-height: 40px;
-    font-size: 8pt;
+    font-size: 12px;
 }
 
 .project-title {
@@ -840,6 +839,7 @@ properly.
 }
 
 .project-roles {
+    color: #F06000;
     margin: -1em 0 2em 0;
     font-style: italic;
 }

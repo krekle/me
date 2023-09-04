@@ -2,7 +2,7 @@ let resumeData = {
   "socialLinks": [
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+      "url": "https://www.linkedin.com/in/kristian-ekle-3150836b/",
       "className": "fa fa-linkedin"
     },
     {
@@ -25,6 +25,7 @@ let resumeData = {
   ],
   "projects": [
     {
+      "version": 2,
       "CompanyName": "Buypass",
       "ProjectName": "Buypass Identity Fido2 og brukerhåndtering for kommune, helse og farmasisektoren",
       "ProjectDescription": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Fido2 er en ny standard for passordløs autentisering på web. Buypass leverer en løsning for autentisering og brukerhåndtering hvor man kan bruke en fysisk nøkkel til å logge på systemer. Løsningen er levert hos flere kunder i kommune- helse- og farmasisektoren. Løsningen gjør det mulig feks logge på statlige tjenester via med FIDO2-nøkkel via ID-porten",
@@ -35,26 +36,34 @@ let resumeData = {
       "Contribution": "Kristian jobbet som utvikler av systemet, han jobbet primært på web applikasjoner for styring av fido2-nøkler, personalia og id-kontroll av personell. Men og en del med event systemet som sendte meldinger over kafka til logstash og videre til elasticsearch. Meldingene ble brukt til rapportering og fakturering. Han bidro også med produksjonsetting, konfigureringg og monitorering av løsningene",
       "Tech": ['Web Components', 'Java', 'Spring-Boot', 'Spring security', 'OIDC', 'Fido2', 'Rancher', 'Docker', 'Kubernetes', 'typescript', 'LDAP', 'git', 'gitlab', 'gitlab-pipelines', 'CI/CD', 'Logstash', 'Elasticsearch', 'Kafka', 'Azure', 'Blob Storage', 'Nginx'],
       "Start": "01.09.2019",
-      "End": "01.05.2023",
-      "version": 2
+      "End": "01.05.2023"
     },
     {
+      "version": 2,
       "CompanyName": "Buypass",
       "ProjectName": "Id-kontroll med digital passleser",
-      "Roles": ['Utvikler'],
+      "ProjectDescription": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Løsningen for digital id-kontroll ble laget på bestilling fra digitaliserings direktoratet som et alternativ til fysisk oppmøte, som var relevant under covid19 pandemien. Kristian jobbet som utvikler med ansvar for web-klient og api-laget for løsningen. Løsningen ble brukt som alternativ autentiseringsinstrument på feks nav.no.",
+      "Roles": [
+        {'Name': 'Fullstackutvikler', 'Description': 'I denne rollen utviklet Kristian en webapplikajson med React frontend og backend i Spring-Boot. Applikasjonen gikk ut på å gjennomføre en id-kontroll av brukere for utstedelse av elektronisk id. Kristian samarbeidet med et kryssfaglig team til å lage en app som brukte integrasjon mot folkeregisteret og en app fra .Nets som leser data fra moderne pass til å gjennomføre en biometrisk id-kontroll. Kristian var også ansvarlig for å integrere mot betalingsløsning etter gjennomført kontroll. Han samarbeidet direkte med UX-ansvarlig iterativt for å gjøre applikajsonene estetiske og brukervennlige.'}, 
+      ],
       "Tech": ['React', 'Java', 'Spring-Boot', 'Rancher', 'Docker', 'Docker-compose', 'typescript', 'OIDC', 'git', 'gitlab', 'gitlab-pipelines'],
       "Start": "01.05.2020",
       "End": "01.09.2020",
-      "Description": "Buypass er et norsk selskap som tilbyr blant annet betaling og tillitstjenester som autentisering og brukerhåndtering. Løsningen for digital id-kontroll ble laget på bestilling fra digitaliserings direktoratet som et alternativ til fysisk oppmøte, som var relevant under covid19 pandemien. Kristian jobbet som utvikler med ansvar for web-klient og api-laget for løsningen. Løsningen ble brukt som alternativ autentiseringsinstrument på feks nav.no."
+      "Contribution": "Kristian jobbet som fullstackutvikler av systemet, men han var ansvarlig for frontend. Han bidro også med 'containerisering' produksjonsetting, konfigureringg og monitorering av løsningene",
+      
     },
     {
+      "version": 2,
       "CompanyName": "Avinor",
       "ProjectName": "Digitalt Infosenter / InfoKiosk",
-      "Roles": ['Utvikler'],
-      "Tech": ['React', 'C#', '.NET Core', 'Azure', 'Azure DevOps', 'GraphQL', 'typescript', 'git'],
+      "ProjectDescription": "Avinor er et norsk statlig selskap, og Norges største eier av flyplasser. Selskapet driver 44 flyplasser, hvorav 12 eies av Forsvaret. Norge har i de siste årene opplevd en økning i turisme, en trend som forventes å fortsette å øke. Dette har blitt en stor belastning for de ansatte ved informasjonssenteret i ankomsthallen.  Dette har gjort det nødvendig å endre informasjonssenteret for å kunne håndtere flere turister raskere. Etter en innsiktsundersøkelse så vi at de mest stilte spørsmålene kan løses digitalt, som kan frigjøre tid og senke stressnivået for både besøkende og ansatte. Kristian deltok i et team før å disse utfordringene, første fase var å sette opp en informasjons-kiosk for Oslo Lufthavn. I prosjektets fase 2 rulles løsningen ut på andre norske flyplasser. ",
+      "Contribution": "Kristian jobbet i et lite utviklingsteam på 3 utviklere og 1 designer. Løsningen besto en React-app som ble kjørt på en fysisk installasjon i form av en touchskjerm infokiosk, og en backoffice app hvor Avinor ansatte kan endre innhold på de ulike flyplassens i en admin-webapp. Teamet og Kristian var ansvarlig for oppsett, utvikling og utrulling av systemet. Infokiosken kunne bla bistå reisende med flyplasskart, rutetider og ruteplanlegging for buss, tog og taxi, severdigheter og evt driftsmeldinger. Informasjonsskioskene er nå installert i Oslo, Stavanger, Bergen og Trondheim.",
+      "Roles": [
+        {'Name': 'Fullstackutvikler', 'Description': "Kristian jobbet med implementering av løsningen basert på kundens spesifikasjon i samarbeid med UX. Han kodet i alle lagene av løsningen: Database, C#, React og i Azure. Han jobbet med resten av teamt i å utarbeide systemarkitektur og design av applikasjonene."}, 
+      ],
+      "Tech": ['React', 'C#', '.NET Core', 'Azure', 'Azure DevOps', 'CosmosDB', 'GraphQL', 'Typescript', 'git', 'CI/CD', 'Docker', 'Kubernetes'],
       "Start": "01.10.2019",
       "End": "01.05.2020",
-      "Description": "Avinor er et norsk statlig selskap, og Norges største eier av flyplasser. Selskapet driver 44 flyplasser, hvorav 12 eies av Forsvaret. I tillegg eier selskapet sikkerhetsinstallasjoner av ulike slag, deriblant radarer, radiofyr, fjernstyrte basestasjoner for flyradiosambandet, og kontrollsentraler. I 2003 ble Avinor oppført som aksjeselskap heleid av staten. Eierskapet forvaltes av Samferdselsdepartementet. Etter hvert som Norge blir et mer og mer populært reisemål, har det økende antallet turister til Oslo lufthavn hver sommer blitt en stor belastning for de ansatte ved informasjonssenteret i ankomsthallen. Denne trenden fortsetter, blant annet fordi et kinesisk flyselskap åpner en rute første gang direkte fra Beijing til Oslo fra midten av mai. Dette har gjort det nødvendig å endre informasjonssenteret for å kunne håndtere flere turister raskere. Etter en innsiktsundersøkelse så vi at de mest stilte spørsmålene kan løses digitalt, som kan frigjøre tid og senke stressnivået for både besøkende og ansatte. Bouvet dannet et team for å løse disse utfordringene, der første fase var å sette opp en informasjons-kiosk for Oslo Lufthavn. I prosjektets fase 2 rulles løsningen ut på andre norske flyplasser. Kristian har vært med på design og utvikling av systemet.."
     },
     {
       "CompanyName": "Sporveien",

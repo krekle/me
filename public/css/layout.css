@@ -209,7 +209,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #aaaaaa;
 }
 #about .profile-pic {
    position: relative;
@@ -242,8 +242,6 @@ ul#nav li.current a { color: #F06000; }
 
 #featured {
   background: rgb(43,43,43);
-background: linear-gradient(180deg, rgba(43,43,43,1) 77%, rgba(240,96,0,0.279171043417367) 94%, rgba(255,255,255,1) 96%);
-
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -262,12 +260,23 @@ background: linear-gradient(180deg, rgba(43,43,43,1) 77%, rgba(240,96,0,0.279171
   line-height: 2.2em;
 }
 
-.feature > h6{
+.feature-title {
+  display: flex;
+  gap: 5px;
+}
+
+.feature-title > i {
+  align-self: center;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.feature-title > h6{
   color: #FFFFFF;
   cursor: pointer;
 }
 
-.feature > h6:hover{
+.feature-title > h6:hover{
   color: #FFFFFF;
   cursor: pointer;
   text-decoration: underline;

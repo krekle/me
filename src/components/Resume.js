@@ -24,10 +24,10 @@ export default class Resume extends Component {
                         <h3 className="project-title">{item.ProjectName}</h3>
                         <p className="details">
                           <h5>{item.CompanyName}</h5>
-                          <em className="date">{item.Start} <span>&bull;</span> {item.End}</em>
+                          <em className="date">{item.Start} <span>-</span> {item.End}</em>
                         </p>
                         <div className="project-roles">
-                          {item.Roles.map((role) => <em className="project-role">{role.Name}</em>)}
+                          {item.Roles.map((role, i) => <em className="project-role">{role.Name}</em>)}
                         </div>
                         <p>
                           {item.ProjectDescription}
@@ -69,7 +69,7 @@ export default class Resume extends Component {
                       <h3 className="project-title">{item.ProjectName}</h3>
                       <p className="details">
                         <h5>{item.CompanyName}</h5>
-                        <em className="date">{item.Start} <span>&bull;</span> {item.End}</em
+                        <em className="date">{item.Start} <span>-</span> {item.End}</em
                         ></p>
                       <p>
                         {item.Description}

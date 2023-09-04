@@ -8,7 +8,10 @@ function FeatureListItem(props) {
 
     return (
       <div className="feature">
-        <h6 onClick={expandCallback}>{props.name}</h6>
+        <div className="feature-title">
+          <h6 onClick={expandCallback}>{props.name}</h6>
+          <i class={expanded? "fa fa-caret-down" : "fa fa-caret-right"} aria-hidden="true"></i>
+        </div>
         <p className={expanded ? 'expand' : 'collapse'}>{props.description}</p>
       </div>
     )
@@ -35,7 +38,6 @@ export default class Featured extends Component {
                 )
               })}
               <br/>
-              Klikk for å se detaljer. <br/>
               Mer utfyllende informasjon tilgjengelig i fullstendig CV, pdf <a href="CV_KristianEkle.pdf">her</a>.
           </div>
 
