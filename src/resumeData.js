@@ -17,8 +17,8 @@ let resumeData = {
     }
   ],
   "featured": [
-    {"Name": "Java", "Description": "Kristian har erfaring med Java fra sin tid på NTNU og i sitt arbeid hos Visma og Buypass AS. Han har god kjennskap til SpringBoot, som han blant annet har brukt til å skrive mange mikrotjenester og frontends med ulike formål og mekanismer som APIer, autentisering, proxy, database, osv."},
     {"Name": "JavaScript", "Description": "Kristian har mye erfaring med JavaScript fra utdannelsen og flere kundeprosjekter. Blant annet i form av frontendrammeverk som React eller Angular, og i utviklingsmiljø som bruker teknologi og byggverktøy som TypeScript, npm, lintere og automatiserte tester."},
+    {"Name": "Java", "Description": "Kristian har erfaring med Java fra sin tid på NTNU og i sitt arbeid hos Visma og Buypass AS. Han har god kjennskap til SpringBoot, som han blant annet har brukt til å skrive mange mikrotjenester og frontends med ulike formål og mekanismer som APIer, autentisering, proxy, database, osv."},
     {"Name": "C# & .NET", "Description": "Kristian jobbet tidligere i en C#/.NET avdeling i Bouvet og bidro mye til fagmiljøet rundt Azure og Microsoft-teknologier. Han er godt kjent med C#, .NET, nuget og Azure fra flere tidligere prosjekter hos Sporveien og Avinor. Han har blant annet levert løsninger til backend APIer, Windows services, samt kalkulasjoner i Azure Functions, med C# og .NET core."},
     {"Name": "Python", "Description": "Kristian har brukt Python i flere prosjekter hos Sporveien; til maskinlæring og optimaliseringsoppgaver, APIer og kalkulasjoner i AWS Lamdas og Azure Functions. Han har også erfaring med Django, Flask og Bottle til hobbyprosjekter og fra studietiden, blant annet for utvikling av nettsider til linjeforeningen/NTNUI-grupper."},
     {"Name": "Infrastruktur og CI/CD", "Description": "I de fleste prosjektene Kristian har vært en del av har han hatt ansvaret for eller bidratt i utvikling av CI/CD pipelines, enten via script i Jenkins, i Azure DevOps eller i GitLab pipelines. Han tar ofte ansvar for deployment av applikasjoner og har erfaring med å prodsette løsninger on-prem eller i skyen med Docker/Kubernetes"},
@@ -66,27 +66,36 @@ let resumeData = {
       "End": "01.05.2020",
     },
     {
+      "version": 2,
       "CompanyName": "Sporveien",
       "ProjectName": "Geometritoget",
-      "Roles": ['Utvikler', 'Arkitekt'],
+      "ProjectDescription": "Geometritoget er en vanlig MX3000 t-banevogn som er utstyrt med over 30 sensorer som måler verdier for blant annet: sporvidde, kurve, vindskjevhet, akselerometer, etc. Toget nyttes som en vanlig t-banevogn som i løpet av en tidsperiode på ca 2 uker vil kjøre alle tbanenettets linjer mens det samler data om sporgeometrien til sporet. Dataen blir lastet over til en server hos Sporveien batchvis over mobilnettet.",
+      "Contribution": " Prosjektet ble utført av et lite team hvor Kristian var eneste utvikler. Han var ansvarlig for design og implementering av softwareløsningen for dette systemet. Dataen fra toget måtte konverteres fra et proprietært binærformat som leverandør av sensorer benyttet til noe mer standard som kunne analyseres og visualiseres. Videre måtte dataen arkiveres i skyen S3 og DynamoDB og berikes og analyseres før innsetting i Redshift databarehus, fra hvor den til slutt ble tilgjengeligjort i analyseverktøyet tableua web. Dataen fra geometritoget skal gjøre det mulig for de som er ansvarlige for vedlikehold av infrastrukturen i Sporveien å; se på trending av feil, få varsel dersom en sensor fanger opp målinger som er utenfor terskelverdier, se på gjennomsnittlige hastigheter på hele skinnenettet. Blant annet.",
+      "Roles": [
+        {'Name': 'Fullstackutvikler', 'Description': "Som eneste utvikler jobbet Kristian med alle ledd av teknologistacken. Han utviklet services og script i C# og AWS Lambda som konverterte, lastet og arkiverte spordata i AWS S3 og Redshift, skrev ETL prosedyrer i databricks som transformerte data. Tilgjengeliggjorde data for rapporter i Tableau og skrev frontendløsninger i Angular"}, 
+        {'Name': 'Arkitekt', 'Description': "En del av prosjektet var å designe systemet med utgangspunkt i Sporveiens eksisterende infrastruktur og tjenesteportefølje, for å få en smidig handover ved ferdigstillelse. Kristian designet dette systemet og presenterte det for Sporveiens 'arkitektur forum' og øvrige forretning for godkjennelse før det ble videreutviklet."}, 
+      ],
       "Tech": ['C#', 'AWS', 'IoT', 'git', 'Python', 'Tableau', 'AWS Redshift', 'AWS S3', 'AWS Lambda', 'Databricks', 'PySpark', 'Big Data', 'Datavarehus', 'Angular', 'typescript'],
       "Start": "01.12.2018",
       "End": "01.01.2020",
-      "Description": "Geometritoget er en MX3000 t-banevogn som er utstyrt med over 30 sensorer som måler verdier for blant annet: sporvidde, kurve, vindskjevhet, akselerometer, etc. Toget nyttes som en vanlig t-banevogn som i løpet av en tidsperiode på ca 2 uker vil kjøre alle tbanenettets linjer mens det samler data om sporgeometrien til sporet. Kristian var ansvarlig for design og implementering av softwareløsningen for dette systemet. Dataen fra toget måtte konverteres fra et proprietært binærformat som leverandør av sensorer benyttet til noe mer standard som kunne analyseres og visualiseres. Videre måtte dataen arkiveres i skyen S3 og DynamoDB og berikes og analyseres før innsetting i Redshift databarehus, fra hvor den til slutt ble tilgjengeligjort i analyseverktøyet tableua web. Dataen fra geometritoget skal gjøre det mulig for de som er ansvarlige for vedlikehold av infrastrukturen i Sporveien å; se på trending av feil, få varsel dersom en sensor fanger opp målinger som er utenfor terskelverdier, se på gjennomsnittlige hastigheter på hele skinnenettet. Blant annet."
     },
     {
+      "version": 2,
       "CompanyName": "Sporveien",
       "ProjectName": "Prediktivt vedlikehold av Sporvekslere",
-      "Roles": ['Utvikler', 'Arkitekt'],
+      "ProjectDescription": "Vedlikehold av infrastruktur i drift krever mye penger og tid. Å gjennomføre for mange unødvendige vedlikehold koster mye penger - for få vedlikehold fører kostbar svikt av utstyr i operasjon. Det er derfor ønskelig med støttesystemer som kan monitorere utsyr og varsle når vedlikehold er nødvendig. Prosjektet dreide seg om å innhente strømtrekket til sporvekslere over tid og i ulike situasjoner for å bruke dataen til å predikere vedlikeholdsbehov.",
+      "Contribution": "I den forbindelse jobbet Kristian på prosjekt hos Sporveien for å prototype en løsning som visualiserte og varslet dersom loggførte strømtrekk på sporvekslinger i t-banenettet er utenom det vanlige. Kristian var eneste tekniske ressurs på prosjektet. Dette ble gjort ved å benytte skyteknologi i Azure, algoritmer fra signalbehandling og statistikk til å se på kurven til strømtrekket for å avgjøre hvorvidt den representerer en 'frisk' veksling eller ikke. Løsningen er laget med Angular7 og Python Flask backend for visualisering og grensesnitt servert fra Azure. Analyse og databehandling gjøres i WebJobs, Azure Function, Blob storage og Azure CosmosDB.",
+      "Roles": [
+        {'Name': 'Fullstackutvikler', 'Description': "Som utvikler var Kristian ansvarlig for å utvikle og sette opp de ulike elementene i løsningen i Python, C#, Angular og i Azure. For å predikere behovet for vedlikehold brukte Kristian algoritmer fra signalbehandling samt AI/ML til å analysere data. Han var også ute i 'felten' for å se på sporvekslere og lage treningsdata for algoritmene. Resultatet ble visualisert i en frontend skrevet i Angular, og det ble utsendt varslinger fra Azure på potensielle vedlikeholdsbehov."}, 
+      ],
       "Tech": ['Python', 'C#', 'Azure', 'Azure CosmosDB', 'Azure Blobstorage', 'Azure Function', 'Angular', 'typescript', 'git'],
       "Start": "01.10.2018",
       "End": "01.03.2019",
-      "Description": "Vedlikehold av infrastruktur i drift krever mye penger og tid. Å gjennomføre for mange unødvendige vedlikehold koster mye penger - for få vedlikehold fører kostbar svikt av utstyr i operasjon. Det er derfor ønskelig med støttesystemer som kan monitorere utsyr og varsle når vedlikehold er nødvendig. I den forbindelse har Kristian jobbet på prosjekt hos Sporveien for å prototype en løsning som kan visualisere og varsle dersom loggførte strømtrekk på sporvekslinger i t-banenettet er utenom det vanlige. Dette gjøres ved å benytte algoritmer fra signalbehandling og statistikk til å se på kurven til strømtrekket for å avgjøre hvorvidt den representerer en 'frisk' veksling eller ikke. Løsningen er laget med Angular7 og Python Flask backend for visualisering og grensesnitt servert fra Azure. Analyse og databehandling gjøres i WebJobs, Azure Function, Blob storage og Azure CosmosDB."
     },
     {
       "CompanyName": "Sporveien",
       "ProjectName": "IVO - Individstyring av Vognparken",
-      "Roles": ['Utvikler', 'Arkitekt'],
+      "Roles": ['Utvikler', 'Arkitekt', 'Data scientist/engineer'],
       "Tech": ['Python', 'Reinforcement Learning', 'Genetisk Algoritme', 'DEAP', 'Ray', 'Azure DevOps', 'AWS EC2', 'git'],
       "Start": "01.09.2017",
       "End": "01.10.2018",
@@ -192,18 +201,6 @@ let resumeData = {
       "MonthOfLeaving": "Juni",
       "YearOfLeaving": "2014",
       "Achievements": "Kristian jobbet hos Difi i et engasjement sommeren 2014."
-    }
-  ],
-  "skillsDescription": "Your skills here",
-  "skills": [
-    {
-      "skillname": "HTML5"
-    },
-    {
-      "skillname": "CSS"
-    },
-    {
-      "skillname": "Reactjs"
     }
   ],
   "portfolio": [

@@ -17,12 +17,12 @@ export default class About extends Component {
                      Har en mastergrad i informatikk fra NTNU med spesialisering i kunstig intelligens.<br />
                   </p>
                   <p>
-                     Fullstackutvikler med bred erfaring fra blant annet java, python og c#, samt Angular og React.
+                     Fullstackutvikler som har bred erfaring fra blant annet frontendrammeverk som React, Java, C# og Python.
                      Jobber med alle lag i stacken og gjerne med features fra konsept til kjørende løsning.
                 <br></br> 
                 <br></br>
                     Tidligere kunder og kollegaer ville beskrevet Kristian som en selvdreven og allsidig utvikler som like gjerne jobber med frontend, backend, infrastruktur, ETL-pipelines eller skyteknologier i AWS eller Azure. For han er det viktig å levere gode, vedlikeholdbare løsninger som passer inn i eksisterende portefølje.
-                    Kristian liker godt å sette seg inn i nye spennende teknologier og verktøy, han rekker gjerne opp hånden dersom det kreves at noe nytt læres eller utforskes for at teamet skal lykkes.
+                    Kristian liker godt å sette seg inn i nye teknologier og verktøy, og han bidrar ofte på arbeidsoppgaver som faller litt imellom to stoler for at teamet skal lykkes.
                   <br></br>
                   <br></br>
 
