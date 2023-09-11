@@ -354,6 +354,11 @@ ul#nav li.current a { color: #F06000; }
   justify-content: space-between;
 }
 
+#resume .contributions {
+   list-style: inside;
+   font-size: 14px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

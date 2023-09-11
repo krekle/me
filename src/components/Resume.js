@@ -17,7 +17,7 @@ export default class Resume extends Component {
               resumeData.projects && resumeData.projects.map((item) => {
 
                 // new resume version
-                if (item.version && item.version == 2) {
+                if (item.version && item.version >= 2) {
                   return (
                     <div className="row item project">
                       <div className="twelve columns">
@@ -36,6 +36,20 @@ export default class Resume extends Component {
                         <p>
                           {item.Contribution}
                         </p>
+
+                        {item.version === 3 ? (
+                          <>
+                          <h6>Bidrag</h6>
+                          <ul className='contributions'>
+                          {item.Bullets.map((bullet) => (
+                            <li>
+                              {bullet}
+                            </li>
+                            )
+                            )}
+                          </ul>
+                            </>
+                          ) : <></>}
 
                         {item.Roles.map((role) => (
                           <div>
