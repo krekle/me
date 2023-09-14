@@ -19,7 +19,7 @@ let resumeData = {
   "featured": [
     {"Name": "JavaScript", "Description": "Mye erfaring med JavaScript fra utdannelse og i fra kundeprosjekter. God kontroll på rammeverk som React, Angular eller Express.js og bruk av for eksempel Webpack, npm, lintere og automatiserte tester."},
     {"Name": "Java", "Description": "Erfaring  i Java fra NTNU og hos Visma og Buypass. God kjennskap til Spring-Boot, for eksempel til å skrive mikrotjenester og backends med ulike formål, som APIer, autentisering, proxy, database, osv."},
-    {"Name": "C# & .NET", "Description": "Jobbet tidligere i en C#/.NET avdeling i Bouvet og bidro mye til fagmiljøet rundt Azure og Microsoft-teknologier. Godt kjent med C#, .NET, nuget og Azure fra flere prosjekter hos Sporveien og Avinor. Har blant annet levert backend APIer, Windows services, samt kalkulasjoner i Azure Functions, med C# og .NET Core."},
+    {"Name": "C# & .NET", "Description": "Jobbet tidligere i en C#/.NET avdeling i Bouvet og bidro mye til fagmiljøet rundt Azure og Microsoft-teknologier. Godt kjent med C#, .NET, ASP.NET, nuget og Azure fra flere prosjekter hos Sporveien og Avinor. Har blant annet levert backend APIer, Windows services, samt kalkulasjoner i Azure Functions, med C# og .NET Core."},
     {"Name": "Python", "Description": "Har benyttet Python i flere prosjekter hos Sporveien; til maskinlæring og optimaliseringsoppgaver, APIer, samt kalkulasjoner i AWS Lamdas og Azure Functions. Han har også erfaring med Django, Flask og Bottle fra hobbyprosjekter og studietiden, blant annet for utvikling av nettsider til linjeforeningen/NTNUI-grupper. "},
     {"Name": "Infrastruktur og CI/CD", "Description": "God kontroll på utvikling av CI/CD pipelines, enten via script i Jenkins, i Azure DevOps eller i GitLab pipelines. Tar ofte ansvar for deployment av applikasjoner og har erfaring med å produksjonssette løsninger on-prem eller i skyen med Docker/Kubernetes."},
   ],
@@ -155,7 +155,7 @@ let resumeData = {
       "ProjectDescription": "I forbindelse med videreutvikling av nettsiden og oppskriftsdatabasen til Tines var det ønskelig å se om det var mulig å bruke ChatBot-teknologi til å lage en smart chat bot som kunne interagere med kunder for å foreslå matoppskrifter fra oppskriftsdatabasen, smartsans, basert på deres preferanser og tilgjengelige ingredienser.",
       "Contribution": "Kristian ble engasjer som utvikler for å jobbe på en PoC (Proof of concept) som gikk ut på å koble Microsoft Bot Framework opp mot deler av samme backend og database som oppskriftsnettsiden brukte. Botten ble deployet på Azure og kunne integreres med ulike klienter, som Slack, Skype eller på nettsider. Prosjektet var vellykket og TINE valgte å gå videre med chatboten.",
       "Bullets": [
-        'Brukte og deployet chatbot laget i Microsoft BotFramework trent med dialoger trent i wit.ai  ',
+        'Utviklet og deployet chatbot laget i Microsoft BotFramework trent med dialoger trent i wit.ai  ',
         'Hentet oppskrifter og bildeinfo fra GraphQL som kunne vises i chat-dialogen '
       ],
       "Roles": [
