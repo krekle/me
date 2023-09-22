@@ -37,7 +37,7 @@ let resumeData = {
       "Bullets": [
         'Skrev backendløsninger og mikrotjenester i Spring-Boot ',
         'Utviklet webapper og selvbetjeningsløsninger i samråd med UX og forretning ',
-        'Deltok i løsningsdesign av eventsystem og multi-tenantversjon av FIDO2 identity services ',
+        'Deltok i løsningsdesign og arkitektur av eventsystem og multi-tenantversjon av FIDO2 identity services ',
         'Skrev løsninger som publiserte, konsumerte, monitorerte og visualiserte events og auditlogs i Kafka ',
         'Pilotprosjekt for deploying av applikasjoner til Kubernetes som senere ble adoptert  '
       ],
@@ -73,6 +73,7 @@ let resumeData = {
       "Bullets": [
         'Utviklet av infokiosk i React med touchstøtte, med bl.a. kart, rutetider og artikkelsystem ',
         'Utviklet backofficeløsning i React med mulighet for å redigere innhold i infokiosk per fysiske enhet, med friteksteditering i Markdown ',
+        'Deltok i å utarbeide løsningsdesign og arkitektur for systemet',
         'CI/CD pipelines og konfigurasjon av Docker for deployment til Azure Kubernetes ',
         'CI/CD pipeline som provisjonerte nødvendig infrastrukture i Azure infrastructure as code (IaC) ',
         'Bidro også til utplukking av hardware, 3D-printing og oppsett av den fysiske infokiosken '
@@ -96,13 +97,14 @@ let resumeData = {
         'Skrev og satt opp AWS Lambdas til å agere på events til å transformere data  ',
         'Utviklet ETL pipelines i Databricks mot AWS DynamoDB og AWS Redshift til prosessering av store datamengder ',
         'Utarbeidet løsningsdesign for systemets arkitektur som ble presentert og akseptert i Arkitekturforum ',
+        'Utviklet webapp i React for visualiseringer av sensordata, deployet med CI/CD pipelines til AWS',
         'Besøkte jevnlig verkstedhallen for å feilsøke systemet på vognen '
       ],
       "Roles": [
         {'Name': 'Fullstackutvikler', 'Description': "Som eneste utvikler jobbet Kristian med alle ledd av teknologistacken. Han utviklet services og script i C# og AWS Lambda som konverterte, lastet og arkiverte spordata i AWS S3 og Redshift, skrev ETL prosedyrer i databricks som transformerte data. Tilgjengeliggjorde data for rapporter i Tableau og skrev frontendløsninger i Angular"}, 
         {'Name': 'Arkitekt', 'Description': "En del av prosjektet var å designe systemet med utgangspunkt i Sporveiens eksisterende infrastruktur og tjenesteportefølje, for å få en smidig handover ved ferdigstillelse. Kristian designet dette systemet og presenterte det for Sporveiens 'arkitektur forum' og øvrige forretning for godkjennelse før det ble videreutviklet."}, 
       ],
-      "Tech": ['C#', 'AWS', 'IoT', 'git', 'Python', 'Tableau', 'AWS Redshift', 'AWS S3', 'AWS Lambda', 'Databricks', 'PySpark', 'Big Data', 'Datavarehus', 'Angular', 'TypeScript'],
+      "Tech": ['C#', 'AWS', 'IoT', 'git', 'Python', 'Tableau', 'AWS Redshift', 'AWS S3', 'AWS Lambda', 'Databricks', 'PySpark', 'Big Data', 'Datavarehus', 'React', 'TypeScript'],
       "Start": "01.12.2018",
       "End": "01.01.2020",
     },
@@ -115,7 +117,7 @@ let resumeData = {
       "Bullets": [
         'Skrev C#-kode kjørt i Azure Functions og WebJobs som brukte algoritmer fra signalbehandling og statistikk til å analysere sporvekslinger ',
         'Utviklet system i Azure Functions som varslet dersom vekslinger var utenfor normalen ',
-        'Utviklet webapp for visualiseringer, deployet i CI/CD pipelines til Azure ',
+        'Utviklet webapp for visualiseringer, deployet i CI/CD pipelines til Azure',
         'Besøkte sporskinner for å lage data til scenarioer hvor sporvekling feilet '
       ],
       "Roles": [
@@ -130,7 +132,7 @@ let resumeData = {
       "CompanyName": "Sporveien",
       "ProjectName": "IVO - Individstyring av Vognparken",
       "ProjectDescription": "Håndtering og bestilling av t-banevogner for regelstyrt ettersyn ved T-baneverkstedet på Ryen i Oslo er en kompleks manuell oppgave. Denne oppgaven involverer ekspertise innen domenet, da t-banevognene må inn til ettersyn basert på ulike vedlikeholdsbehov som kan skyldes både tidsforløp og kjørte kilometer. Av økonomiske hensyn er det ønskelig å maksimere antall kilometer en vogn kan kjøre før ettersyn, da ubrukte kilometer representerer betydelige kostnader over vognens levetid. Dette er en utfordrende oppgave grunnet den komplekse kombinasjonen av faktorer som påvirker en vogns tilstand, inkludert rutevalg, parkeringsstruktur, uforutsett vedlikehold og rengjøring.  Prosjektet kalt IVO (Individstyring av vognparken), hvor et forprosjekt ble etablert for å utforske muligheten for å utvikle digitale verktøy for å optimalisere planleggingen av ettersyn og styringen av t-banevogner. Kristian ble engasjert som utvikler og data scientist, for å undersøke om AI/ML-teknikker kunne løse denne utfordringen. Forprosjektet resulterte i en Proof of Concept (PoC) som dannet grunnlaget for fremtidige prosjektforslag og patentsøknad.",
-      "Contribution": "Kristian jobbet med flere alle delene av systemet, og var i lengre tid eneste utvikler på prosjektet. Problemet viste seg å være svært komplekst og det ble oppdelt i flere subproblemer som ble løst av skreddersydde optimaliseringsrutiner skrevet som Evolusjonære algoritmer i Python og reinforcementlærning i Tensorflow. Videre jobbet han med integrasjoner mot kjernesystemer for å hente ut nødvendig informasjon som kilometerstand og ruteplan.",
+      "Contribution": "Kristian jobbet med alle delene av systemet, og var i lengre tid eneste utvikler på prosjektet. Problemet viste seg å være svært komplekst og det ble oppdelt i flere subproblemer som ble løst av skreddersydde optimaliseringsrutiner skrevet som Evolusjonære algoritmer i Python og reinforcementlærning i Tensorflow. Videre jobbet han med integrasjoner mot kjernesystemer for å hente ut nødvendig informasjon som kilometerstand og ruteplan.",
       "Bullets": [
         'Skrev evolusjonære algoritmer i Python for å utarbeide ruteallokering for å treffe optimale verksteddatoer ',
         'Utviklet “et spill” av reglene for rangering på depot og brukte reinforcement learning til å trene modeller som lærte seg å rangere tog på for å treffe allokert rutevalg. Modellene ble trent ved å "spille" over lengre tid i AWS EC2 ',
