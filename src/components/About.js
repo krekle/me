@@ -34,9 +34,9 @@ export default class About extends Component {
               <br></br>
               Tidligere kunder og kollegaer ville beskrevet Kristian som en
               selvdreven og allsidig utvikler som like gjerne jobber med
-              frontend, backend, infrastruktur, ETL-pipelines eller
-              skyteknologier i AWS eller Azure. Og, han er alltid åpen for å
-              utforske ny teknologi. For han er det viktig å levere gode,
+              frontend, backend, infrastruktur, ETL-pipelines, løsningsdesign
+              eller skyteknologier i AWS eller Azure. Og, han er alltid åpen for
+              å utforske ny teknologi. For han er det viktig å levere gode,
               vedlikeholdbare løsninger som passer inn i eksisterende
               portefølje. Kristians styrke ligger i hans praktiske og målrettede
               tilnærming til utviklingsoppgaver. Han er en pragmatisk

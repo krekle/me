@@ -12,7 +12,7 @@ let resumeData = {
     },
     {
       name: "cv",
-      url: "CV_KristianEkle.pdf",
+      url: "CVKristianEkle_web.pdf",
       className: "fa fa-file-pdf-o",
     },
   ],
@@ -67,12 +67,11 @@ let resumeData = {
       Bullets: [
         "Skrev backendløsninger og mikrotjenester i Spring-Boot ",
         "Utviklet webapper og selvbetjeningsløsninger i samråd med UX og forretning ",
-        "Deltok i løsningsdesign av eventsystem og multi-tenantversjon av FIDO2 identity services ",
+        "Deltok i løsningsdesign og arkitektur av eventsystem og multi-tenantversjon av FIDO2 identity services ",
         "Skrev løsninger som publiserte, konsumerte, monitorerte og visualiserte events og auditlogs i Kafka ",
         "Pilotprosjekt for deploying av applikasjoner til Kubernetes som senere ble adoptert  ",
       ],
       Tech: [
-        "Web Components",
         "Java",
         "Spring-Boot",
         "Spring security",
@@ -92,7 +91,9 @@ let resumeData = {
         "Kafka",
         "Azure",
         "Blob Storage",
+        "Web Components",
         "Nginx",
+        "HTML/CSS",
       ],
       Start: "01.09.2019",
       End: "01.05.2023",
@@ -145,6 +146,7 @@ let resumeData = {
       Bullets: [
         "Utviklet av infokiosk i React med touchstøtte, med bl.a. kart, rutetider og artikkelsystem ",
         "Utviklet backofficeløsning i React med mulighet for å redigere innhold i infokiosk per fysiske enhet, med friteksteditering i Markdown ",
+        "Deltok i å utarbeide løsningsdesign og arkitektur for systemet",
         "CI/CD pipelines og konfigurasjon av Docker for deployment til Azure Kubernetes ",
         "CI/CD pipeline som provisjonerte nødvendig infrastrukture i Azure infrastructure as code (IaC) ",
         "Bidro også til utplukking av hardware, 3D-printing og oppsett av den fysiske infokiosken ",
@@ -170,6 +172,92 @@ let resumeData = {
         "CI/CD",
         "Docker",
         "Kubernetes",
+        "HTML/CSS",
+      ],
+      Start: "01.10.2019",
+      End: "01.05.2020",
+    },
+    {
+      version: 3,
+      CompanyName: "Sporveien",
+      ProjectName: "Geometritoget",
+      ProjectDescription:
+        "Geometritoget er en t-banevogn utstyrt med over 30 sensorer som måler verdier for blant annet sporvidde, kurve, vindskjevhet, akselerometer, m.m. Toget vil ved normal bruk dekke hele spornettet per 2 uker. Sporveien etablerte et lite team for å hente ned, dekode og analysere denne dataen med ønske om å kunne si noe om vedlikeholdsbehov til spornettet. Dataen fra geometritoget skal gjøre det mulig for de som er ansvarlige for vedlikehold av infrastrukturen i Sporveien å se på trending av feil, få varsel dersom en sensor fanger opp målinger som er utenfor terskelverdier, samt se på gjennomsnittlige hastigheter på hele skinnenettet. ",
+      Contribution:
+        "Kristian ble engasjert i dette prosjektet som eneste tekniske ressurs. Han var ansvarlig for løsningsdesign og implementering av softwareløsningen for systemet, og utviklet ulike tjenester for dataprosessering på servere og i sky for å dekode, transformere og overføre data til ulike systemer.",
+      Bullets: [
+        "Skrev tjenester i C# services som overførte sensordata fra toget over 4g-nettet til AWS S3",
+        "Benyttet Python for å konvertere sensordata fra et proprietært binærsystem brukt av sensorleverandør ",
+        "Skrev og satt opp AWS Lambdas til å agere på events til å transformere data  ",
+        "Utviklet ETL pipelines i Databricks mot AWS DynamoDB og AWS Redshift til prosessering av store datamengder ",
+        "Utarbeidet løsningsdesign for systemets arkitektur som ble presentert og akseptert i Arkitekturforum ",
+        "Utviklet webapp i React for visualiseringer av sensordata, deployet med CI/CD pipelines til AWS",
+        "Besøkte jevnlig verkstedhallen for å feilsøke systemet på vognen ",
+      ],
+      Roles: [
+        {
+          Name: "Fullstackutvikler",
+          Description:
+            "Som eneste utvikler jobbet Kristian med alle ledd av teknologistacken. Han utviklet services og script i C# og AWS Lambda som konverterte, lastet og arkiverte spordata i AWS S3 og Redshift, skrev ETL prosedyrer i databricks som transformerte data. Tilgjengeliggjorde data for rapporter i Tableau og skrev frontendløsninger i Angular",
+        },
+        {
+          Name: "Arkitekt",
+          Description:
+            "En del av prosjektet var å designe systemet med utgangspunkt i Sporveiens eksisterende infrastruktur og tjenesteportefølje, for å få en smidig handover ved ferdigstillelse. Kristian designet dette systemet og presenterte det for Sporveiens 'arkitektur forum' og øvrige forretning for godkjennelse før det ble videreutviklet.",
+        },
+      ],
+      Tech: [
+        "C#",
+        "AWS",
+        "IoT",
+        "git",
+        "Python",
+        "Tableau",
+        "AWS Redshift",
+        "AWS S3",
+        "AWS Lambda",
+        "Databricks",
+        "PySpark",
+        "Big Data",
+        "Datavarehus",
+        "React",
+        "TypeScript",
+        "HTML/CSS",
+      ],
+      Start: "01.12.2018",
+      End: "01.01.2020",
+    },
+    {
+      version: 3,
+      CompanyName: "Sporveien",
+      ProjectName: "Prediktivt vedlikehold av Sporvekslere",
+      ProjectDescription:
+        "Sporveien kjøpte og installerte nye sporvekslere med en sensor for måling og rapportering av nøyaktig strømforbruk med høy oppløsning. Planen var å undersøke om det var mulig å predikere vedlikeholdsbehov basert på denne dataen. ",
+      Contribution:
+        "Kristian ble engasjert for å prototype en løsning som kunne bruke denne dataen til å analysere, visualisere og varsle dersom loggførte strømtrekk på sporvekslinger i t-banenettet er utenom det vanlige og tilsa at det var behov for vedlikehold. Som eneste utvikler på prosjektet utviklet han en løsning med Angular7 og Python Flask backend for visualisering servert fra Azure. Analyse og databehandling ble gjort i WebJobs, Azure Function, Blob storage og Azure CosmosDB. ",
+      Bullets: [
+        "Skrev C#-kode kjørt i Azure Functions og WebJobs som brukte algoritmer fra signalbehandling og statistikk til å analysere sporvekslinger ",
+        "Utviklet system i Azure Functions som varslet dersom vekslinger var utenfor normalen ",
+        "Utviklet webapp for visualiseringer, deployet i CI/CD pipelines til Azure",
+        "Besøkte sporskinner for å lage data til scenarioer hvor sporvekling feilet ",
+      ],
+      Roles: [
+        {
+          Name: "Fullstackutvikler",
+          Description:
+            "Som utvikler var Kristian ansvarlig for å utvikle og sette opp de ulike elementene i løsningen i Python, C#, Angular og i Azure. For å predikere behovet for vedlikehold brukte Kristian algoritmer fra signalbehandling samt AI/ML til å analysere data. Han var også ute i 'felten' for å se på sporvekslere og lage treningsdata for algoritmene. Resultatet ble visualisert i en frontend skrevet i Angular, og det ble utsendt varslinger fra Azure på potensielle vedlikeholdsbehov.",
+        },
+      ],
+      Tech: [
+        "Python",
+        "C#",
+        "Azure",
+        "Azure CosmosDB",
+        "Azure Blobstorage",
+        "Azure Function",
+        "Angular",
+        "typescript",
+        "git",
       ],
       Start: "01.10.2019",
       End: "01.05.2020",
@@ -220,6 +308,7 @@ let resumeData = {
         "Datavarehus",
         "React",
         "TypeScript",
+        "HTML/CSS",
       ],
       Start: "01.12.2018",
       End: "01.01.2020",
@@ -266,12 +355,12 @@ let resumeData = {
       ProjectDescription:
         "Håndtering og bestilling av t-banevogner for regelstyrt ettersyn ved T-baneverkstedet på Ryen i Oslo er en kompleks manuell oppgave. Denne oppgaven involverer ekspertise innen domenet, da t-banevognene må inn til ettersyn basert på ulike vedlikeholdsbehov som kan skyldes både tidsforløp og kjørte kilometer. Av økonomiske hensyn er det ønskelig å maksimere antall kilometer en vogn kan kjøre før ettersyn, da ubrukte kilometer representerer betydelige kostnader over vognens levetid. Dette er en utfordrende oppgave grunnet den komplekse kombinasjonen av faktorer som påvirker en vogns tilstand, inkludert rutevalg, parkeringsstruktur, uforutsett vedlikehold og rengjøring.  Prosjektet kalt IVO (Individstyring av vognparken), hvor et forprosjekt ble etablert for å utforske muligheten for å utvikle digitale verktøy for å optimalisere planleggingen av ettersyn og styringen av t-banevogner. Kristian ble engasjert som utvikler og data scientist, for å undersøke om AI/ML-teknikker kunne løse denne utfordringen. Forprosjektet resulterte i en Proof of Concept (PoC) som dannet grunnlaget for fremtidige prosjektforslag og patentsøknad.",
       Contribution:
-        "Kristian jobbet med flere alle delene av systemet, og var i lengre tid eneste utvikler på prosjektet. Problemet viste seg å være svært komplekst og det ble oppdelt i flere subproblemer som ble løst av skreddersydde optimaliseringsrutiner skrevet som Evolusjonære algoritmer i Python og reinforcementlærning i Tensorflow. Videre jobbet han med integrasjoner mot kjernesystemer for å hente ut nødvendig informasjon som kilometerstand og ruteplan.",
+        "Kristian jobbet med alle delene av systemet, og var i lengre tid eneste utvikler på prosjektet. Problemet viste seg å være svært komplekst og det ble oppdelt i flere subproblemer som ble løst av skreddersydde optimaliseringsrutiner skrevet som Evolusjonære algoritmer i Python og reinforcementlærning i Tensorflow. Videre jobbet han med integrasjoner mot kjernesystemer for å hente ut nødvendig informasjon som kilometerstand og ruteplan.",
       Bullets: [
         "Skrev evolusjonære algoritmer i Python for å utarbeide ruteallokering for å treffe optimale verksteddatoer ",
         'Utviklet “et spill” av reglene for rangering på depot og brukte reinforcement learning til å trene modeller som lærte seg å rangere tog på for å treffe allokert rutevalg. Modellene ble trent ved å "spille" over lengre tid i AWS EC2 ',
         "Holdt presentasjoner om systemet på Make data smart Again ",
-        "Skrev rapporter og utarbeidet arkitektur for fullskala prosjekt som ble brukt til patentsøknad ",
+        "Skrev rapporter og utarbeidet arkitektur for fullskala implementasjon som ble brukt til patentsøknad ",
         "Flere besøk på t-banehallen for å forstå domenet ",
         "Tkinter GUI for visualisering av modeller mens de rangerer vogner ",
       ],
@@ -350,7 +439,7 @@ let resumeData = {
         },
       ],
       Tech: [
-        "Java EE",
+        "Java",
         "JavaServer Faces",
         "Angular.js",
         "Karma",
@@ -360,6 +449,7 @@ let resumeData = {
         "Jenkins",
         "SVN",
         "Selenium",
+        "HTML/CSS",
       ],
       Start: "01.06.2015",
       End: "01.06.2017",
@@ -487,6 +577,44 @@ let resumeData = {
       MonthOfLeaving: "Juni",
       YearOfLeaving: "2014",
       Achievements: "Kristian jobbet hos Difi i et engasjement sommeren 2014.",
+    },
+  ],
+  publications: [
+    {
+      Type: "Workshop",
+      Name: "NDC Oslo: Maskinlæring og kunstig intelligens",
+      Description:
+        "Kristian avhold workshop på NDC Oslo om bruk av AI/ML for utviklere",
+      Time: "Jun 2018",
+    },
+    {
+      Type: "Foredrag",
+      Name: "Make Data Smart Again",
+      Description:
+        "Kristian holdt foredrag om ML algoritmene utviklet og brukt i prosjekt IVO hos Sporveien",
+      Time: "Jun 2018",
+    },
+    {
+      Type: "Foredrag",
+      Name: "Yggdrasil: Kunstig intelligens og maskinlæring",
+      Description:
+        "Kristian avhold presentasjon om hva AI/ML for designere på Yggdrasilkonferansen",
+      Time: "Apr 2018",
+    },
+    {
+      Type: "Publikasjon",
+      Name: "Self-Modifying Dynamical Systems for Reservoir Computing",
+      Description: "Masteroppgave i kunstig intelligens på NTNU Gløshaugen",
+      Time: "Jun 2017",
+    },
+  ],
+  courses: [
+    {
+      Type: "Course",
+      Name: "Arkitektskolen",
+      Description:
+        "Kurs for løsningsarkitekter over flere moduler som; Estimering, Krav, CI/CD, DevOps, GDPR, etc..",
+      Time: "Høst 2019",
     },
   ],
   portfolio: [
