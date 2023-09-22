@@ -35,17 +35,27 @@ export default class About extends Component {
               Tidligere kunder og kollegaer ville beskrevet Kristian som en
               selvdreven og allsidig utvikler som like gjerne jobber med
               frontend, backend, infrastruktur, ETL-pipelines eller
-              skyteknologier i AWS eller Azure. For han er det viktig å levere
-              gode, vedlikeholdbare løsninger som passer inn i eksisterende
-              portefølje. Kristian liker godt å sette seg inn i nye teknologier
-              og verktøy, og han bidrar ofte på arbeidsoppgaver som faller litt
-              imellom to stoler for at teamet skal lykkes.
+              skyteknologier i AWS eller Azure. Og, han er alltid åpen for å
+              utforske ny teknologi. For han er det viktig å levere gode,
+              vedlikeholdbare løsninger som passer inn i eksisterende
+              portefølje. Kristians styrke ligger i hans praktiske og målrettede
+              tilnærming til utviklingsoppgaver. Han er en pragmatisk
+              problemløser, som setter stor pris på effektiv samhandling og
+              kommunikasjon for å sikre at de utviklede løsningene samsvarer med
+              kundenes faktiske behov. Han er en tilhenger av smidig
+              utviklingsmetodikk og viser initiativ og samarbeidsvilje i både
+              selvstendige prosjekter og som del av et team, hvor han er godt
+              vant med å tre inn i ansvarsroller.
               <br></br>
               <br></br>
               Han opptatt av- og har erfaring i å jobbe tett sammen med
-              forretningen for å utvikle løsninger som gir verdi for han kunder.
-              I den forbindelse har Kristian erfaring med å jobbe brukersentrert
-              i prosjekter med mye endring.
+              forretningen for å utvikle kritiske forretningsløsninger som gir
+              stor kundeverdi. I den forbindelse har Kristian erfaring med å
+              jobbe brukersentrert i prosjekter med mye endring. I flere
+              prosjekter har han vært engasjert i hele produktutviklingen, fra
+              behovsanalyser og konseptutforming, gjennom utviklingsløpet, og
+              fram til grundig testede løsninger med vellykket realisering av
+              gevinster.
             </p>
 
             <div className="row">
