@@ -503,6 +503,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+#portfolio-wrapper {
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+.portfolio-item {
+   align-self: center;
+}
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;

@@ -69,7 +69,9 @@ let resumeData = {
         "Utviklet webapper og selvbetjeningsløsninger i samråd med UX og forretning ",
         "Deltok i løsningsdesign og arkitektur av eventsystem og multi-tenantversjon av FIDO2 identity services ",
         "Skrev løsninger som publiserte, konsumerte, monitorerte og visualiserte events og auditlogs i Kafka ",
+        "Utviklet JavaScript løsning som integrerte mot webauthn og ctap for autentisering med fyskiske FIDO2-nøkler",
         "Pilotprosjekt for deploying av applikasjoner til Kubernetes som senere ble adoptert  ",
+        "•	Deltok i revisjonsprosesser for å få løsningen sertifisert på høyeste nivå, eIDAS høy",
       ],
       Tech: [
         "Java",
@@ -635,6 +637,11 @@ let resumeData = {
       imgurl: "images/portfolio/avinor-osl.png",
     },
     {
+      name: "AviKiosk",
+      description: "Digitalt Infosenter for reisende på flyplass",
+      imgurl: "images/portfolio/avinor-trdcrop.png",
+    },
+    {
       name: "Rangeringsmodul",
       description:
         "Rangering av tbanevogner ved AI trent med reinforcement learning",
@@ -664,7 +671,23 @@ let resumeData = {
       name: "Pålogging med Buypass Identity & passordløs FIDO2-teknologi hos Altinn",
       description:
         "Påloggingsskjerm som bruker Buypass Identity & passordløs FIDO2-teknologi ",
+      imgurl: "images/portfolio/fido2.jpg",
+    },
+    {
+      name: "Buypass Identity & passordløs FIDO2-teknologi ",
+      description:
+        "ID kontroll med digital passleser og registrering av fysisk FIDO2-nøkkel",
       imgurl: "images/portfolio/bpaltinn.png",
+    },
+    {
+      name: "Visma Autopay",
+      description: "Skjerm fra Visma Autopay",
+      imgurl: "images/portfolio/visma.png",
+    },
+    {
+      name: "Sporveien IVO",
+      description: "Optimalisering av rute allokering med EA",
+      imgurl: "images/portfolio/genetic.png",
     },
   ],
 };
