@@ -621,15 +621,16 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "Verktøy for visualisering av potensielle feil på spornettet",
+      name: "Pålogging med Buypass Identity & passordløs FIDO2-teknologi hos Altinn",
       description:
-        "Verktøy for visualisering av potensielle feil på spornettet",
-      imgurl: "images/portfolio/geofeil.jpg",
+        "Påloggingsskjerm som bruker Buypass Identity & passordløs FIDO2-teknologi ",
+      imgurl: "images/portfolio/fido2.jpg",
     },
     {
-      name: "Verktøy for trening og visualisering av modeller",
-      description: "Optimalisering av Rangering og Dispatching av tbanevogner",
-      imgurl: "images/portfolio/base-agent.gif",
+      name: "Buypass Identity & passordløs FIDO2-teknologi ",
+      description:
+        "ID kontroll med digital passleser og registrering av fysisk FIDO2-nøkkel",
+      imgurl: "images/portfolio/bpaltinn.png",
     },
     {
       name: "AviKiosk",
@@ -640,6 +641,17 @@ let resumeData = {
       name: "AviKiosk",
       description: "Digitalt Infosenter for reisende på flyplass",
       imgurl: "images/portfolio/avinor-trdcrop.png",
+    },
+    {
+      name: "Verktøy for visualisering av potensielle feil på spornettet",
+      description:
+        "Verktøy for visualisering av potensielle feil på spornettet",
+      imgurl: "images/portfolio/geofeil.jpg",
+    },
+    {
+      name: "Verktøy for trening og visualisering av modeller",
+      description: "Optimalisering av Rangering og Dispatching av tbanevogner",
+      imgurl: "images/portfolio/base-agent.gif",
     },
     {
       name: "Rangeringsmodul",
@@ -653,31 +665,14 @@ let resumeData = {
       imgurl: "images/portfolio/geometri.jpg",
     },
     {
-      name: "NTNUi Squash",
-      description: "CMS og medlemsside for NTNUi Squash",
-      imgurl: "images/portfolio/ntnuisquash.png",
-    },
-    {
-      name: "NTNUi Dans",
-      description: "Side for påmelding, innhold og betaling for NTNUi Dans",
-      imgurl: "images/portfolio/ntnuidans.png",
-    },
-    {
       name: "Prediktiv vedlikehold av Sporvekslere",
       description: "Analyse og varsling av feil på sporvekslere",
       imgurl: "images/portfolio/psv.jpg",
     },
     {
-      name: "Pålogging med Buypass Identity & passordløs FIDO2-teknologi hos Altinn",
-      description:
-        "Påloggingsskjerm som bruker Buypass Identity & passordløs FIDO2-teknologi ",
-      imgurl: "images/portfolio/fido2.jpg",
-    },
-    {
-      name: "Buypass Identity & passordløs FIDO2-teknologi ",
-      description:
-        "ID kontroll med digital passleser og registrering av fysisk FIDO2-nøkkel",
-      imgurl: "images/portfolio/bpaltinn.png",
+      name: "Sporveien IVO",
+      description: "Optimalisering av rute allokering med EA",
+      imgurl: "images/portfolio/genetic.png",
     },
     {
       name: "Visma Autopay",
@@ -685,9 +680,20 @@ let resumeData = {
       imgurl: "images/portfolio/visma.png",
     },
     {
-      name: "Sporveien IVO",
-      description: "Optimalisering av rute allokering med EA",
-      imgurl: "images/portfolio/genetic.png",
+      name: "NTNUi Dans",
+      description: "Side for påmelding, innhold og betaling for NTNUi Dans",
+      imgurl: "images/portfolio/ntnuidans.png",
+    },
+    {
+      name: "Difi App for ID-porten eID",
+      description:
+        "Android app utviklet hos Difi for eID etter pålogging med ID-porten",
+      imgurl: "images/portfolio/difi-app.png",
+    },
+    {
+      name: "NTNUi Squash",
+      description: "CMS og medlemsside for NTNUi Squash",
+      imgurl: "images/portfolio/ntnuisquash.png",
     },
   ],
 };
