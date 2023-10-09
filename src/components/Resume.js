@@ -36,16 +36,16 @@ export default class Resume extends Component {
                         <p>{item.Contribution}</p>
 
                         {item.version === 3 ? (
-                          <>
+                          <React.Fragment>
                             <h6>Bidrag</h6>
                             <ul className="contributions">
                               {item.Bullets.map((bullet) => (
                                 <li>{bullet}</li>
                               ))}
                             </ul>
-                          </>
+                          </React.Fragment>
                         ) : (
-                          <></>
+                          <React.Fragment></React.Fragment>
                         )}
 
                         {item.Roles.map((role) => (

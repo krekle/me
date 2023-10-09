@@ -4,16 +4,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/react": "^18.2.21",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.3",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-scripts-ts": "^3.1.0",
+    "typescript": "^5.2.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test",
+    "eject": "react-scripts-ts eject",
     "predeploy": "npm run build && echo krekle.no > ./build/CNAME && gh-pages -d build",
     "deploy": "gh-pages -d build"
   },
