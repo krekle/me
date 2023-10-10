@@ -1,4 +1,32 @@
 let resumeData = {
+  content: {
+    home: "Hjem",
+    about: "Om",
+    competence: "Kompetanse",
+    cv: "CV",
+    portfolio: "Portefølje",
+    contact: "Kontakt",
+    desc: "Fullstackutvikler med skaperglede for software",
+    title: "Daglig leder & Senior IT-konsulent i Fyr Consulting AS",
+    availability: "For tiden engasjert hos Specc, men ledig for nytt oppdrag høsten 2023",
+    about_header: "Om Kristian",
+    about_short: "Har en mastergrad i informatikk fra NTNU med spesialisering i kunstig intelligens.",
+    about_long: "Kristian trives godt med å arbeide selvstendig og i tverrfaglige team. Som person er Kristian en meget positiv og engasjert konsulent som bidrar til å skape et godt team-miljø. Han er ansvar i prosjektene og deler mer enn gjerne sin kunnskap med andre utviklere.\n\n Tidligere kunder og kollegaer ville beskrevet Kristian som en selvdreven og allsidig utvikler som like gjerne jobber med frontend, backend, infrastruktur, ETL-pipelines, løsningsdesign eller skyteknologier i AWS eller Azure. Og, han er alltid åpen for å utforske ny teknologi. For han er det viktig å levere gode, vedlikeholdbare løsninger som passer inn i eksisterende portefølje. Kristians styrke ligger i hans praktiske og målrettede tilnærming til utviklingsoppgaver. Han er en pragmatisk problemløser, som setter stor pris på effektiv samhandling og kommunikasjon for å sikre at de utviklede løsningene samsvarer med kundenes faktiske behov. Han er en tilhenger av smidig utviklingsmetodikk og viser initiativ og samarbeidsvilje i både selvstendige prosjekter og som del av et team, hvor han er godt vant med å tre inn i ansvarsroller. \n\n Han opptatt av- og har erfaring i å jobbe tett sammen med forretningen for å utvikle kritiske forretningsløsninger som gir stor kundeverdi. I den forbindelse har Kristian erfaring med å jobbe brukersentrert i prosjekter med mye endring. I flere prosjekter har han vært engasjert i hele produktutviklingen, fra behovsanalyser og konseptutforming, gjennom utviklingsløpet, og fram til grundig testede løsninger med vellykket realisering av gevinster.",
+    contact_header: "Kontaktinformasjon",
+    contact_name: "Kristian Ekle ",
+    contact_address: "Oslo, Norway",
+    contact_email: "kristian.ekle@fyrconsulting.no",
+    featured_header: "Fremhevet kompetanse",
+    cv_promo: "Mer utfyllende informasjon tilgjengelig i fullstendig CV, pdf ",
+    cv_link: "her",
+    resume_header: "Prosjekter",
+    resume_contributions: "Bidrag",
+    education_header: "Utdannelse",
+    work_header: "Arbeid",
+    publications_header: "Publiseringer",
+    courses_header: "Kurs",
+    portfolie_header: "Et utdrag av tidligere prosjekter."
+  },
   socialLinks: [
     {
       name: "linkedin",
@@ -18,28 +46,28 @@ let resumeData = {
   ],
   featured: [
     {
-      Name: "JavaScript",
-      Description:
+      name: "JavaScript",
+      description:
         "Mye erfaring med JavaScript fra utdannelse og i fra kundeprosjekter. God kontroll på rammeverk som React, Angular eller Express.js og bruk av for eksempel Webpack, npm, lintere og automatiserte tester.",
     },
     {
-      Name: "Java",
-      Description:
+      name: "Java",
+      description:
         "Erfaring  i Java fra NTNU og hos Visma og Buypass. God kjennskap til Spring-Boot, for eksempel til å skrive mikrotjenester og backends med ulike formål, som APIer, autentisering, proxy, database, osv.",
     },
     {
-      Name: "C# & .NET",
-      Description:
+      name: "C# & .NET",
+      description:
         "Jobbet tidligere i en C#/.NET avdeling i Bouvet og bidro mye til fagmiljøet rundt Azure og Microsoft-teknologier. Godt kjent med C#, .NET, ASP.NET, nuget og Azure fra flere prosjekter hos Sporveien og Avinor. Har blant annet levert backend APIer, Windows services, samt kalkulasjoner i Azure Functions, med C# og .NET Core.",
     },
     {
-      Name: "Python",
-      Description:
+      name: "Python",
+      description:
         "Har benyttet Python i flere prosjekter hos Sporveien; til maskinlæring og optimaliseringsoppgaver, APIer, samt kalkulasjoner i AWS Lamdas og Azure Functions. Han har også erfaring med Django, Flask og Bottle fra hobbyprosjekter og studietiden, blant annet for utvikling av nettsider til linjeforeningen/NTNUI-grupper. ",
     },
     {
-      Name: "Infrastruktur og CI/CD",
-      Description:
+      name: "Infrastruktur og CI/CD",
+      description:
         "God kontroll på utvikling av CI/CD pipelines, enten via script i Jenkins, i Azure DevOps eller i GitLab pipelines. Tar ofte ansvar for deployment av applikasjoner og har erfaring med å produksjonssette løsninger on-prem eller i skyen med Docker/Kubernetes.",
     },
   ],

@@ -165,6 +165,35 @@ ul#nav li {
    display: inline-block;
 }
 
+ul#nav:first-child {
+   padding-left: 125px;
+}
+
+.lang-toggle {
+   height: 13px;
+   float: right;
+   display: inline-flex !important;
+   flex-direction: row;
+   align-items: center;
+   gap: 0.5em;
+   cursor: pointer;
+}
+
+.lang-toggle:hover {
+   text-decoration: underline;
+   color: #ffffffb5;
+}
+
+.lang-select {
+   height: 13px;
+   vertical-align: middle;
+   vertical-align: -webkit-baseline-middle;
+   padding-right: 15px;
+   cursor: pointer;
+}
+
+
+
 /* Links */
 ul#nav li a {
 
