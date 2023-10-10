@@ -24,7 +24,7 @@ function FeatureListItem(props: MeFeaturedType) {
 }
 
 const Featured: React.FC = () => {
-  const { data } = useContentContext();
+  const { data, language } = useContentContext();
 
   return (
     <section id="featured">
@@ -47,7 +47,12 @@ const Featured: React.FC = () => {
             })}
           <br />
           {data.content.cv_promo}
-          <a href="CVKristianEkle_web.pdf">{data.content.cv_link}</a>.
+          <a
+            href={"CVKristianEkle_web" + language === "en" ? "_en.pdf" : ".pdf"}
+          >
+            {data.content.cv_link}
+          </a>
+          .
         </div>
       </div>
     </section>
