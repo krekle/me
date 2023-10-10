@@ -47,12 +47,14 @@ const Header: React.FC = () => {
                 {data.content.contact}
               </a>
             </li>
-            <li className="lang-toggle">
+            <li
+              className="lang-toggle"
+              onClick={() => setLanguage(language === "no" ? "en" : "no")}
+            >
               <span>{language === "no" ? "EN" : "NO"}</span>
               <Flag
                 className="lang-select"
                 code={language === "no" ? "gb" : "no"}
-                onClick={() => setLanguage(language === "no" ? "en" : "no")}
               />
             </li>
           </ul>

@@ -85,13 +85,14 @@ export type MeProjectRoleType = {
 }
 
 export type MeProjectsType = {
-    version: number,
+    version?: number,
     CompanyName: string,
     ProjectName: string,
-    ProjectDescription: string,
-    Contribution: string,
-    Roles: Array<MeProjectRoleType>,
-    Bullets: Array<string>,
+    ProjectDescription?: string,
+    Description?: string,
+    Contribution?: string,
+    Roles: Array<MeProjectRoleType> | Array<string>,
+    Bullets?: Array<string>,
     Tech: Array<string>,
     Start: string,
     End: string,
