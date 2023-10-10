@@ -178,6 +178,10 @@
       border-bottom-style: dotted; 
    }
   
+   ul#nav:first-child {
+      padding-left: unset;
+   }
+
    ul#nav li a {  
       display: block;    
       margin: 0;
@@ -187,6 +191,11 @@
       border: none;
    }  
 
+   .lang-toggle {
+      height: 13px;
+      float: left;
+   }
+   
 
    /* Header Styles
    -------------------------------------------------------------------- */

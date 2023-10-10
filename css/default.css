@@ -139,7 +139,12 @@ table {
 html {
    font-size: 62.5%;
    -webkit-font-smoothing: antialiased;
+   
 }
+
+.display-linebreak {
+   white-space: pre-line;
+ }
 
 body {
    background: #fff;
