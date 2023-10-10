@@ -11,14 +11,14 @@ export type ContextProviderProps = {
 }
 
 export type MeDataType = {
-    content: MeHomeContentType & MeAboutContentType & MeFeaturedContentType & MeResumeContentType & MePortfolioContentType;
+    content: MeHomeContentType & MeAboutContentType & MeFeaturedContentType & MeResumeContentType & MePortfolioContentType & MeContactContentType;
     socialLinks: Array<MeSocialLinksType>;
     featured: Array<MeFeaturedType>;
-    projects: any;
-    education: any;
-    work: any;
-    publications: any;
-    courses: any;
+    projects: Array<MeProjectsType>;
+    education: Array<MeEducationType>;
+    work: Array<MeWorkType>;
+    publications: Array<MePublicationType>;
+    courses: Array<MeCoursesType>;
     portfolio: Array<MePortfolioType>;
 };
 
@@ -60,6 +60,10 @@ export type MeResumeContentType = {
     courses_header: string,
 };
 
+export type MeContactContentType = {
+    lead: string,
+};
+
 export type MePortfolioContentType = {
     portfolie_header: string
 };
@@ -74,6 +78,54 @@ export type MeFeaturedType = {
     name: string,
     description: string,
 };
+
+export type MeProjectRoleType = {
+    Name: string,
+    Description: string,
+}
+
+export type MeProjectsType = {
+    version: number,
+    CompanyName: string,
+    ProjectName: string,
+    ProjectDescription: string,
+    Contribution: string,
+    Roles: Array<MeProjectRoleType>,
+    Bullets: Array<string>,
+    Tech: Array<string>,
+    Start: string,
+    End: string,
+};
+
+export type MeEducationType = {
+    UniversityName: string,
+    specialization: string,
+    MonthOfPassing: string,
+    YearOfPassing: string,
+    Achievements: string
+}
+
+export type MeWorkType = {
+    CompanyName: string,
+    specialization: string,
+    MonthOfLeaving: string,
+    YearOfLeaving: string,
+    Achievements: string
+}
+
+export type MeCoursesType = {
+    Type: string,
+    Name: string,
+    Description: string,
+    Time: string
+}
+
+export type MePublicationType = {
+    Type: string,
+    Name: string,
+    Description: string,
+    Time: string
+}
 
 export type MePortfolioType = {
     name: string,

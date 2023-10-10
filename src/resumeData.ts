@@ -25,7 +25,8 @@ let resumeData = {
     work_header: "Arbeid",
     publications_header: "Publiseringer",
     courses_header: "Kurs",
-    portfolie_header: "Et utdrag av tidligere prosjekter."
+    portfolie_header: "Et utdrag av tidligere prosjekter.",
+    lead: "Ta gjerne kontakt på epost eller på linkedin."
   },
   socialLinks: [
     {

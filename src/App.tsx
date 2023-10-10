@@ -4,10 +4,9 @@ import About from "./components/About";
 import Featured from "./components/Featured";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import ContactUs from "./components/Contact";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { ContentProvider } from "./context";
-import resumeData from "./resumeData";
 
 export default class App extends Component {
   render() {
@@ -19,8 +18,8 @@ export default class App extends Component {
           <Featured />
           <Resume />
           <Portfolio />
-          <ContactUs />
-          <Footer resumeData={resumeData} />
+          <Contact />
+          <Footer />
         </ContentProvider>
       </div>
     );
