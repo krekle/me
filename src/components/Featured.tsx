@@ -48,7 +48,9 @@ const Featured: React.FC = () => {
           <br />
           {data.content.cv_promo}
           <a
-            href={"CVKristianEkle_web" + language === "en" ? "_en.pdf" : ".pdf"}
+            href={
+              "CVKristianEkle_web" + (language === "en" ? "_en.pdf" : ".pdf")
+            }
           >
             {data.content.cv_link}
           </a>
