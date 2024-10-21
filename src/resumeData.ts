@@ -8,10 +8,10 @@ let resumeData = {
     contact: "Kontakt",
     desc: "Fullstackutvikler med skaperglede for software",
     title: "Daglig leder & Senior IT-konsulent i Fyr Consulting AS",
-    availability: "For tiden engasjert hos Specc, men ledig for nytt oppdrag høsten 2023",
+    availability: "For tiden engasjert hos Norwegian Bank Investment Management",
     about_header: "Om Kristian",
     about_short: "Har en mastergrad i informatikk fra NTNU med spesialisering i kunstig intelligens.",
-    about_long: "Kristian trives godt med å arbeide selvstendig og i tverrfaglige team. Som person er Kristian en meget positiv og engasjert konsulent som bidrar til å skape et godt team-miljø. Han er ansvar i prosjektene og deler mer enn gjerne sin kunnskap med andre utviklere.\n\n Tidligere kunder og kollegaer ville beskrevet Kristian som en selvdreven og allsidig utvikler som like gjerne jobber med frontend, backend, infrastruktur, ETL-pipelines, løsningsdesign eller skyteknologier i AWS eller Azure. Og, han er alltid åpen for å utforske ny teknologi. For han er det viktig å levere gode, vedlikeholdbare løsninger som passer inn i eksisterende portefølje. Kristians styrke ligger i hans praktiske og målrettede tilnærming til utviklingsoppgaver. Han er en pragmatisk problemløser, som setter stor pris på effektiv samhandling og kommunikasjon for å sikre at de utviklede løsningene samsvarer med kundenes faktiske behov. Han er en tilhenger av smidig utviklingsmetodikk og viser initiativ og samarbeidsvilje i både selvstendige prosjekter og som del av et team, hvor han er godt vant med å tre inn i ansvarsroller. \n\n Han opptatt av- og har erfaring i å jobbe tett sammen med forretningen for å utvikle kritiske forretningsløsninger som gir stor kundeverdi. I den forbindelse har Kristian erfaring med å jobbe brukersentrert i prosjekter med mye endring. I flere prosjekter har han vært engasjert i hele produktutviklingen, fra behovsanalyser og konseptutforming, gjennom utviklingsløpet, og fram til grundig testede løsninger med vellykket realisering av gevinster.",
+    about_long: "Kristian trives godt med å arbeide selvstendig og i tverrfaglige team. Som person er Kristian en meget positiv og engasjert konsulent som bidrar til å skape et godt team-miljø. Han er tar ansvar i prosjektene og deler mer enn gjerne sin kunnskap med andre utviklere.\n\n Tidligere kunder og kollegaer ville beskrevet Kristian som en selvdreven og allsidig utvikler som like gjerne jobber med frontend, backend, infrastruktur, ETL-pipelines, løsningsdesign eller skyteknologier i AWS eller Azure. Og, han er alltid åpen for å utforske ny teknologi. For han er det viktig å levere gode, vedlikeholdbare løsninger som passer inn i eksisterende portefølje. Kristians styrke ligger i hans praktiske og målrettede tilnærming til utviklingsoppgaver. Han er en pragmatisk problemløser, som setter stor pris på effektiv samhandling og kommunikasjon for å sikre at de utviklede løsningene samsvarer med kundenes faktiske behov. Han er en tilhenger av smidig utviklingsmetodikk og viser initiativ og samarbeidsvilje i både selvstendige prosjekter og som del av et team, hvor han er godt vant med å tre inn i ansvarsroller. \n\n Han opptatt av- og har erfaring i å jobbe tett sammen med forretningen for å utvikle kritiske forretningsløsninger som gir stor kundeverdi. I den forbindelse har Kristian erfaring med å jobbe brukersentrert i prosjekter med mye endring. I flere prosjekter har han vært engasjert i hele produktutviklingen, fra behovsanalyser og konseptutforming, gjennom utviklingsløpet, og fram til grundig testede løsninger med vellykket realisering av gevinster.",
     contact_header: "Kontaktinformasjon",
     contact_name: "Kristian Ekle ",
     contact_address: "Oslo, Norway",
@@ -47,7 +47,7 @@ let resumeData = {
   ],
   featured: [
     {
-      name: "JavaScript",
+      name: "JavaScript & TypeSript",
       description:
         "Mye erfaring med JavaScript fra utdannelse og i fra kundeprosjekter. God kontroll på rammeverk som React, Angular eller Express.js og bruk av for eksempel Webpack, npm, lintere og automatiserte tester.",
     },
@@ -73,6 +73,36 @@ let resumeData = {
     },
   ],
   projects: [
+    {
+      version: 3,
+      CompanyName: "NBIM",
+      ProjectName: "Norges Bank Investment Management",
+      ProjectDescription:
+        "Formålet med Norges Bank Investment Management, Oljefondet,  er å sikre en langsiktig forvaltning av inntektene fra Norges olje- og gassressurser, slik at formuen kommer både dagens og fremtidige generasjoner til gode. Fondets formelle navn er Statens pensjonsfond utland.",
+      Contribution:
+        "Som Fullstackutvikler hos NBIM jobbet Kristian med løsninger som visualiserte, tilgjengeliggjorde og analysere data slik at porteføljeforvaltere best mulig kunne gjøre sin jobb, som er å kjøpe og selge aksjer for Norge. I denne rollen jobbet Kristian i et team av utviklere som samarbeidet tett med porteføljeforvaltere, tradere og andre stakeholders. Kristian jobbet med flere deler av systemene, blant annet infrastruktur i AWS, API’er og langtidskjørende analysejobber, samt med visualisering og interaksjon i Angular.",
+      Roles: [
+        {
+          Name: "Fullstackutvikler",
+          Description:
+            "",
+        },
+      ],
+      Bullets: [
+        "Utviklet backendløsninger i Python Fast API",
+        "Videreutviklet C# .NET Core Applikasjon",
+        "Utviklet webapp i Angular 18",        
+        "Skisserte og implementerte overgang til containeriserte kjøremiljøer i AWS",
+        "Bidro til migrering fra legacy database til Snowflake i alle lag av løsningene",
+        "Jobbet med infrastruktur og CI/CD pipelines i Github og AWS",
+        "Jobbet med monitorering av logger og traces med opentelemetry på containers i AWS",
+      ],
+      Tech: [
+        "Python", "FastAPI", "Snowflake", "AWS", "TypeScript", "Angular", "JavaScript", "Docker", "Opentelemetry", "Numpy", "Pandas", "RxJS", "AWS Aurora", "AWS Cloudformation", "AWS Lambda", "AWS Batch", "Github", "HTML/CSS", "Grafana", "Git", "Pip", "NPM"
+      ],
+      Start: "01.11.2023",
+      End: "01.01.2025",
+    },
     {
       version: 3,
       CompanyName: "Buypass",
@@ -111,7 +141,8 @@ let resumeData = {
         "Rancher",
         "Docker",
         "Kubernetes",
-        "typescript",
+        "TypeScript",
+        "React",
         "LDAP",
         "git",
         "gitlab",
@@ -129,7 +160,7 @@ let resumeData = {
         "Webpack",
         "NPM",
       ],
-      Start: "01.09.2019",
+      Start: "01.09.2020",
       End: "01.05.2023",
     },
     {
@@ -462,7 +493,7 @@ let resumeData = {
         },
       ],
       Tech: [
-        "node.js",
+        "Node.js",
         "GraphQL",
         "Microsoft Bot Framework",
         "javascript",
@@ -502,6 +533,7 @@ let resumeData = {
         "SVN",
         "Selenium",
         "HTML/CSS",
+        "Figma"
       ],
       Start: "01.06.2015",
       End: "01.06.2017",
@@ -605,7 +637,7 @@ let resumeData = {
       MonthOfLeaving: "Mai 2020",
       YearOfLeaving: " -",
       Achievements:
-        "Gjennom sitt arbeid som it-konsulten i Fyr Consulting er Kristian på prosjekt hos Buypass",
+        "Gjennom sitt arbeid som it-konsultent i Fyr Consulting har Kristian vært på prosjekt hos kunder som Buypass and NBIM",
     },
     {
       CompanyName: "Bouvet",
@@ -670,6 +702,12 @@ let resumeData = {
     },
   ],
   portfolio: [
+    {
+      name: "Avkastning på Oljefondet i kroner",
+      description:
+        "Verdien på norges fond host 2024",
+      imgurl: "images/portfolio/nbim.png",
+    },
     {
       name: "Pålogging med Buypass Identity & passordløs FIDO2-teknologi hos Altinn",
       description:

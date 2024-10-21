@@ -8,7 +8,7 @@ let resumeData = {
     contact: "Contact",
     desc: "Full-stack developer with a passion for software",
     title: "CEO and Senior Fullstack developer at Fyr Consulting AS",
-    availability: "Currently working on a project for Specc. Available fall 2023",
+    availability: "Currently on assignment at Norwegian Bank Investment Management",
     about_header: "About Kristian",
     about_short: "He holds a master's degree in computer science from NTNU with a specialization in artificial intelligence.",
     about_long: "Kristian thrives when working independently and in interdisciplinary teams. As an individual, Kristian is a very positive and engaged consultant who contributes to creating a good team environment. He takes responsibility in projects and is more than happy to share his knowledge with other developers. \n\n Previous clients and colleagues would describe Kristian as a self-driven and versatile developer who is equally comfortable working with frontend, backend, infrastructure, ETL pipelines, solution design, or cloud technologies in AWS or Azure. Moreover, he is always open to exploring new technology. For him, it's important to deliver high-quality, maintainable solutions that fit into the existing portfolio. Kristian's strength lies in his practical and goal-oriented approach to development tasks. He is a pragmatic problem solver who values efficient interaction and communication to ensure that the developed solutions align with the actual needs of the clients. He is a proponent of agile development methodology and demonstrates initiative and willingness to collaborate in both independent projects and as part of a team, where he is accustomed to taking on roles of responsibility. \n\n He is keen on and has experience in working closely with the business to develop critical business solutions that provide significant customer value. In this context, Kristian has experience working user-centered in projects with a lot of change. In several projects, he has been involved in the entire product development, from needs analysis and concept design, through the development process, to thoroughly tested solutions with successful realization of benefits.",
@@ -47,7 +47,7 @@ let resumeData = {
   ],
   featured: [
     {
-      name: "JavaScript",
+      name: "JavaScript & TypeScript",
       description:
         "Extensive experience with JavaScript from education and customer projects. Proficient with frameworks like React, Angular, or Express.js and tools such as Webpack, npm, linters, and automated tests."
     },
@@ -73,6 +73,35 @@ let resumeData = {
     },
   ],
   projects: [
+    {
+      version: 3,
+      CompanyName: "NBIM",
+      ProjectName: "Norges Bank Investment Management",
+      ProjectDescription:
+        "The purpose of Norges Bank Investment Management, the Oil Fund, is to ensure long-term management of revenues from Norway's oil and gas resources, so that the wealth benefits both current and future generations. The fund’s formal name is the Government Pension Fund Global.",
+      Contribution:
+        "As a Fullstack Developer at NBIM, Kristian worked on solutions that visualized, made data accessible, and provided analysis to help portfolio managers perform their job as efficiently as possible, which is to buy and sell stocks for Norway. In this role, Kristian worked in a team of developers who closely collaborated with portfolio managers, traders, and other stakeholders. Kristian worked on various parts of the systems, including infrastructure in AWS, APIs, long-running analysis jobs, as well as visualization and interaction in Angular.",
+      Roles: [
+        {
+          Name: "Fullstack developer",
+          Description:
+            "",
+        },
+      ],
+      Bullets: [
+        "Developed backend solutions in Python FastAPI", 
+        "Further developed a C# .NET Core application", 
+        "Developed a web app in Angular 18", 
+        "Designed and implemented the transition to containerized runtime environments in AWS", 
+        "Contributed to the migration from legacy database to Snowflake across all layers of the solutions", "Worked on infrastructure and CI/CD pipelines in GitHub and AWS", 
+        "Worked on monitoring logs and traces with OpenTelemetry on containers in AWS"
+      ],
+      Tech: [
+        "Python", "FastAPI", "Snowflake", "AWS", "TypeScript", "Angular", "JavaScript", "Docker", "Opentelemetry", "Numpy", "Pandas", "RxJS", "AWS Aurora", "AWS Cloudformation", "AWS Lambda", "AWS Batch", "Github", "HTML/CSS", "Grafana", "Git", "Pip", "NPM"
+      ],
+      Start: "01.11.2023",
+      End: "01.01.2025",
+    },
     {
       "version": 3,
       "CompanyName": "Buypass",
@@ -111,7 +140,8 @@ let resumeData = {
         "Rancher",
         "Docker",
         "Kubernetes",
-        "typescript",
+        "TypeScript",
+        "React",
         "LDAP",
         "git",
         "gitlab",
@@ -129,7 +159,7 @@ let resumeData = {
         "Webpack",
         "NPM"
       ],
-      "Start": "01.09.2019",
+      "Start": "01.09.2020",
       "End": "01.05.2023"
     },
     {
@@ -410,7 +440,8 @@ let resumeData = {
         "Jenkins",
         "SVN",
         "Selenium",
-        "HTML/CSS"
+        "HTML/CSS",
+        "Figma"
       ],
       "Start": "01.06.2015",
       "End": "01.06.2017"
@@ -571,6 +602,12 @@ let resumeData = {
     }
   ],
   portfolio: [
+    {
+      "name": "Verdien på Oljefondet i kroner",
+      "description":
+        "Verdien på norges fond host 2024",
+      "imgurl": "images/portfolio/nbim.png",
+    },
     {
       "name": "Login with Buypass Identity & passwordless FIDO2 technology at Altinn",
       "description": "Login screen using Buypass Identity & passwordless FIDO2 technology",
