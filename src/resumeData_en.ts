@@ -8,7 +8,7 @@ let resumeData = {
     contact: "Contact",
     desc: "Full-stack developer with a passion for software",
     title: "CEO and Senior Fullstack developer at Fyr Consulting AS",
-    availability: "Currently on assignment at Norwegian Bank Investment Management",
+    availability: "Currently on assignment at KulturIT",
     about_header: "About Kristian",
     about_short: "He holds a master's degree in computer science from NTNU with a specialization in artificial intelligence.",
     about_long: "Kristian thrives when working independently and in interdisciplinary teams. As an individual, Kristian is a very positive and engaged consultant who contributes to creating a good team environment. He takes responsibility in projects and is more than happy to share his knowledge with other developers. \n\n Previous clients and colleagues would describe Kristian as a self-driven and versatile developer who is equally comfortable working with frontend, backend, infrastructure, ETL pipelines, solution design, or cloud technologies in AWS or Azure. Moreover, he is always open to exploring new technology. For him, it's important to deliver high-quality, maintainable solutions that fit into the existing portfolio. Kristian's strength lies in his practical and goal-oriented approach to development tasks. He is a pragmatic problem solver who values efficient interaction and communication to ensure that the developed solutions align with the actual needs of the clients. He is a proponent of agile development methodology and demonstrates initiative and willingness to collaborate in both independent projects and as part of a team, where he is accustomed to taking on roles of responsibility. \n\n He is keen on and has experience in working closely with the business to develop critical business solutions that provide significant customer value. In this context, Kristian has experience working user-centered in projects with a lot of change. In several projects, he has been involved in the entire product development, from needs analysis and concept design, through the development process, to thoroughly tested solutions with successful realization of benefits.",
@@ -100,7 +100,7 @@ let resumeData = {
         "Python", "FastAPI", "Snowflake", "AWS", "TypeScript", "Angular", "JavaScript", "Docker", "Opentelemetry", "Numpy", "Pandas", "RxJS", "AWS Aurora", "AWS Cloudformation", "AWS Lambda", "AWS Batch", "Github", "HTML/CSS", "Grafana", "Git", "Pip", "NPM"
       ],
       Start: "01.11.2023",
-      End: "01.01.2025",
+      End: "01.06.2025",
     },
     {
       "version": 3,

@@ -8,7 +8,7 @@ let resumeData = {
     contact: "Kontakt",
     desc: "Fullstackutvikler med skaperglede for software",
     title: "Daglig leder & Senior IT-konsulent i Fyr Consulting AS",
-    availability: "For tiden engasjert hos Norwegian Bank Investment Management",
+    availability: "For tiden engasjert hos KulturIT",
     about_header: "Om Kristian",
     about_short: "Har en mastergrad i informatikk fra NTNU med spesialisering i kunstig intelligens.",
     about_long: "Kristian trives godt med å arbeide selvstendig og i tverrfaglige team. Som person er Kristian en meget positiv og engasjert konsulent som bidrar til å skape et godt team-miljø. Han er tar ansvar i prosjektene og deler mer enn gjerne sin kunnskap med andre utviklere.\n\n Tidligere kunder og kollegaer ville beskrevet Kristian som en selvdreven og allsidig utvikler som like gjerne jobber med frontend, backend, infrastruktur, ETL-pipelines, løsningsdesign eller skyteknologier i AWS eller Azure. Og, han er alltid åpen for å utforske ny teknologi. For han er det viktig å levere gode, vedlikeholdbare løsninger som passer inn i eksisterende portefølje. Kristians styrke ligger i hans praktiske og målrettede tilnærming til utviklingsoppgaver. Han er en pragmatisk problemløser, som setter stor pris på effektiv samhandling og kommunikasjon for å sikre at de utviklede løsningene samsvarer med kundenes faktiske behov. Han er en tilhenger av smidig utviklingsmetodikk og viser initiativ og samarbeidsvilje i både selvstendige prosjekter og som del av et team, hvor han er godt vant med å tre inn i ansvarsroller. \n\n Han opptatt av- og har erfaring i å jobbe tett sammen med forretningen for å utvikle kritiske forretningsløsninger som gir stor kundeverdi. I den forbindelse har Kristian erfaring med å jobbe brukersentrert i prosjekter med mye endring. I flere prosjekter har han vært engasjert i hele produktutviklingen, fra behovsanalyser og konseptutforming, gjennom utviklingsløpet, og fram til grundig testede løsninger med vellykket realisering av gevinster.",
@@ -101,7 +101,7 @@ let resumeData = {
         "Python", "FastAPI", "Snowflake", "AWS", "TypeScript", "Angular", "JavaScript", "Docker", "Opentelemetry", "Numpy", "Pandas", "RxJS", "AWS Aurora", "AWS Cloudformation", "AWS Lambda", "AWS Batch", "Github", "HTML/CSS", "Grafana", "Git", "Pip", "NPM"
       ],
       Start: "01.11.2023",
-      End: "01.01.2025",
+      End: "01.06.2025",
     },
     {
       version: 3,
