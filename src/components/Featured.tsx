@@ -40,9 +40,10 @@ const Featured: React.FC = () => {
             data.featured.map((item: MeFeaturedType) => {
               return (
                 <FeatureListItem
+                  key={item.name}
                   name={item.name}
                   description={item.description}
-                ></FeatureListItem>
+                />
               );
             })}
           <br />

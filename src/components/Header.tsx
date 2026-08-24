@@ -75,7 +75,7 @@ const Header: React.FC = () => {
                 data.socialLinks.map((item: MeSocialLinksType) => {
                   return (
                     <li key={item.name}>
-                      <a href={item.url} target="_blank">
+                      <a href={item.url} target="_blank" rel="noreferrer">
                         <i className={item.className}></i>
                       </a>
                     </li>

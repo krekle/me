@@ -7,11 +7,11 @@ let resumeData = {
     portfolio: "Portfolio",
     contact: "Contact",
     desc: "Full-stack developer with a passion for software",
-    title: "CEO and Senior Fullstack developer at Fyr Consulting AS",
+    title: "Senior IT Consultant and CEO at Fyr Consulting AS",
     availability: "Currently on assignment at KulturIT",
     about_header: "About Kristian",
     about_short: "He holds a master's degree in computer science from NTNU with a specialization in artificial intelligence.",
-    about_long: "Kristian thrives when working independently and in interdisciplinary teams. As an individual, Kristian is a very positive and engaged consultant who contributes to creating a good team environment. He takes responsibility in projects and is more than happy to share his knowledge with other developers. \n\n Previous clients and colleagues would describe Kristian as a self-driven and versatile developer who is equally comfortable working with frontend, backend, infrastructure, ETL pipelines, solution design, or cloud technologies in AWS or Azure. Moreover, he is always open to exploring new technology. For him, it's important to deliver high-quality, maintainable solutions that fit into the existing portfolio. Kristian's strength lies in his practical and goal-oriented approach to development tasks. He is a pragmatic problem solver who values efficient interaction and communication to ensure that the developed solutions align with the actual needs of the clients. He is a proponent of agile development methodology and demonstrates initiative and willingness to collaborate in both independent projects and as part of a team, where he is accustomed to taking on roles of responsibility. \n\n He is keen on and has experience in working closely with the business to develop critical business solutions that provide significant customer value. In this context, Kristian has experience working user-centered in projects with a lot of change. In several projects, he has been involved in the entire product development, from needs analysis and concept design, through the development process, to thoroughly tested solutions with successful realization of benefits.",
+    about_long: "Kristian is an experienced and versatile fullstack developer who thrives both when taking independent responsibility and when working in cross-functional teams. He works comfortably across frontend, backend, databases, and infrastructure, and actively shares knowledge with other developers.\n\n He takes a practical, goal-oriented approach to development and focuses on delivering robust, maintainable solutions that address real needs. Kristian collaborates closely with users and business stakeholders and has experience across the full product lifecycle – from needs analysis and solution design to development, production rollout, and continuous improvement.",
     contact_header: "Contact Information",
     contact_name: "Kristian Ekle",
     contact_address: "Oslo, Norway",
@@ -36,7 +36,7 @@ let resumeData = {
     },
     {
       name: "github",
-      url: "http://github.com/krekle",
+      url: "https://github.com/krekle",
       className: "fa fa-github",
     },
     {
@@ -73,6 +73,34 @@ let resumeData = {
     },
   ],
   projects: [
+    {
+      version: 3,
+      CompanyName: "KulturIT",
+      ProjectName: "Primus",
+      ProjectDescription:
+        "Primus is KulturIT's system for managing museum collections and cultural heritage data.",
+      Contribution:
+        "As a Senior Fullstack Developer, Kristian primarily works on making long-running processes and deployments faster, more secure, and more stable. His work spans backend, database, infrastructure, and frontend, with an emphasis on targeted improvements to existing solutions.",
+      Roles: [
+        {
+          Name: "Senior Fullstack Developer",
+          Description:
+            "Kristian combines the development of new functionality with continuous improvement of a complex system with numerous integrations and customer environments.",
+        },
+      ],
+      Bullets: [
+        "Reduced the runtime of a critical process from 36 to 4.5 hours through targeted code and database optimization",
+        "Made import, migration, and reindexing jobs more robust and stable through improved error handling, timeouts, and progress logging",
+        "Optimized numerous resource-intensive database queries, contributing to faster and more predictable processing",
+        "Developed a hibernation system spanning frontend, backend, and infrastructure, allowing applications to scale down when idle and wake when needed",
+        "Established shared monitoring with logs, traces, and metrics, and developed new functionality in Python and Angular",
+      ],
+      Tech: [
+        "Python", "Flask", "FastAPI", "PostgreSQL", "Solr", "TypeScript", "Angular", "Docker", "Kubernetes", "Helm", "GitLab CI/CD", "OpenTelemetry"
+      ],
+      Start: "01.09.2025",
+      End: "Present",
+    },
     {
       version: 3,
       CompanyName: "NBIM",
@@ -491,11 +519,11 @@ let resumeData = {
       "Tech": [
         "Python",
         "Flask",
-        "javascript",
-        "SQL Alrchemy",
-        "PostgrSQL",
-        "nginx",
-        "uwsgi"
+        "JavaScript",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Nginx",
+        "uWSGI"
       ],
       "Start": "01.01.2013",
       "End": "01.01.2016",
@@ -509,11 +537,11 @@ let resumeData = {
       "Tech": [
         "Python",
         "Flask",
-        "javascript",
-        "SQL Alrchemy",
-        "PostgrSQL",
-        "nginx",
-        "uwsgi"
+        "JavaScript",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Nginx",
+        "uWSGI"
       ],
       "Start": "01.09.2013",
       "End": "01.08.2015",
@@ -527,23 +555,23 @@ let resumeData = {
           "specialization": "Master of Science (MSc), Computer Science, Artificial Intelligence",
           "MonthOfPassing": "June",
           "YearOfPassing": "2017",
-          "Achievements": "Some Achievements"
+          "Achievements": ""
         },
         {
           "UniversityName": "Norwegian University of Science and Technology (NTNU)",
           "specialization": "Bachelor of Science (BSc) Computer Science",
           "MonthOfPassing": "June",
           "YearOfPassing": "2015",
-          "Achievements": "Some Achievements"
+          "Achievements": ""
         }
   ],  
   work: [
     {
       "CompanyName": "Fyr Consulting",
-      "specialization": "IT Consultant and Managing Director",
-      "MonthOfLeaving": "May",
-      "YearOfLeaving": "2020",
-      "Achievements": "Through his work as an IT consultant at Fyr Consulting, Kristian is on a project with Buypass."
+      "specialization": "Senior IT Consultant and CEO",
+      "MonthOfLeaving": "May 2020",
+      "YearOfLeaving": "- Present",
+      "Achievements": "As an IT consultant at Fyr Consulting, Kristian has worked with Buypass, NBIM, and KulturIT. He is currently on assignment at KulturIT."
     },
     {
       "CompanyName": "Bouvet",

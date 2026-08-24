@@ -15,9 +15,13 @@ const Portfolio: React.FC = () => {
             {data.portfolio &&
               data.portfolio.map((item: MePortfolioType) => {
                 return (
-                  <div className="columns portfolio-item">
+                  <div className="columns portfolio-item" key={item.name}>
                     <div className="item-wrap">
-                      <img src={`${item.imgurl}`} className="item-img" />
+                      <img
+                        src={item.imgurl}
+                        className="item-img"
+                        alt={item.name}
+                      />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>

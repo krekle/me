@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             {data.socialLinks &&
               data.socialLinks.map((item: MeSocialLinksType) => {
                 return (
-                  <li>
+                  <li key={item.name}>
                     <a href={item.url}>
                       <i className={item.className} />
                     </a>

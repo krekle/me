@@ -380,7 +380,9 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .details {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 #resume .contributions {

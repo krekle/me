@@ -15,22 +15,30 @@ const Resume: React.FC = () => {
 
         <div className="nine columns main-col">
           {data.projects &&
-            data.projects.map((item: any) => {
+            data.projects.map((item: any, projectIndex: number) => {
               // new resume version
               if (item.version && item.version >= 2) {
                 return (
-                  <div className="row item project">
+                  <div
+                    className="row item project"
+                    key={`${item.ProjectName}-${item.Start}-${projectIndex}`}
+                  >
                     <div className="twelve columns">
                       <h3 className="project-title">{item.ProjectName}</h3>
-                      <p className="details">
+                      <div className="details">
                         <h5>{item.CompanyName}</h5>
                         <em className="date">
                           {item.Start} <span>-</span> {item.End}
                         </em>
-                      </p>
+                      </div>
                       <div className="project-roles">
-                        {item.Roles.map((role: any, i: number) => (
-                          <em className="project-role">{role.Name}</em>
+                        {item.Roles.map((role: any, roleIndex: number) => (
+                          <em
+                            className="project-role"
+                            key={`${role.Name}-${roleIndex}`}
+                          >
+                            {role.Name}
+                          </em>
                         ))}
                       </div>
                       <p>{item.ProjectDescription}</p>
@@ -41,8 +49,8 @@ const Resume: React.FC = () => {
                         <React.Fragment>
                           <h6>{data.content.resume_contributions}</h6>
                           <ul className="contributions">
-                            {item.Bullets.map((bullet: string) => (
-                              <li>{bullet}</li>
+                            {item.Bullets.map((bullet: string, bulletIndex: number) => (
+                              <li key={`${bullet}-${bulletIndex}`}>{bullet}</li>
                             ))}
                           </ul>
                         </React.Fragment>
@@ -50,16 +58,21 @@ const Resume: React.FC = () => {
                         <React.Fragment></React.Fragment>
                       )}
 
-                      {item.Roles.map((role: any) => (
-                        <div>
+                      {item.Roles.map((role: any, roleIndex: number) => (
+                        <div key={`${role.Name}-details-${roleIndex}`}>
                           <h6>{role.Name}</h6>
                           <p>{role.Description}</p>
                         </div>
                       ))}
                       {item.Tech && (
                         <div className="chips-dus">
-                          {item.Tech.map((tech: string) => (
-                            <div className="chip dus">{tech}</div>
+                          {item.Tech.map((tech: string, techIndex: number) => (
+                            <div
+                              className="chip dus"
+                              key={`${tech}-${techIndex}`}
+                            >
+                              {tech}
+                            </div>
                           ))}
                         </div>
                       )}
@@ -75,20 +88,28 @@ const Resume: React.FC = () => {
 
               // Old resume version
               return (
-                <div className="row item project">
+                <div
+                  className="row item project"
+                  key={`${item.ProjectName}-${item.Start}-${projectIndex}`}
+                >
                   <div className="twelve columns">
                     <h3 className="project-title">{item.ProjectName}</h3>
-                    <p className="details">
+                    <div className="details">
                       <h5>{item.CompanyName}</h5>
                       <em className="date">
                         {item.Start} <span>-</span> {item.End}
                       </em>
-                    </p>
+                    </div>
                     <p>{item.Description}</p>
                     {item.Tech && (
                       <div className="chips-dus">
-                        {item.Tech.map((tech: string) => (
-                          <div className="chip dus">{tech}</div>
+                        {item.Tech.map((tech: string, techIndex: number) => (
+                          <div
+                            className="chip dus"
+                            key={`${tech}-${techIndex}`}
+                          >
+                            {tech}
+                          </div>
                         ))}
                       </div>
                     )}
@@ -115,7 +136,10 @@ const Resume: React.FC = () => {
           {data.education &&
             data.education.map((item: any) => {
               return (
-                <div className="row item">
+                <div
+                  className="row item"
+                  key={`${item.UniversityName}-${item.YearOfPassing}-${item.specialization}`}
+                >
                   <div className="twelve columns">
                     <h3>{item.UniversityName}</h3>
                     <p className="info">
@@ -125,7 +149,7 @@ const Resume: React.FC = () => {
                         {item.MonthOfPassing} {item.YearOfPassing}
                       </em>
                     </p>
-                    <p>{item.Achievements}</p>
+                    {item.Achievements && <p>{item.Achievements}</p>}
                   </div>
                 </div>
               );
@@ -143,7 +167,10 @@ const Resume: React.FC = () => {
           {data.work &&
             data.work.map((item: any) => {
               return (
-                <div className="row item">
+                <div
+                  className="row item"
+                  key={`${item.CompanyName}-${item.MonthOfLeaving}-${item.YearOfLeaving}`}
+                >
                   <div className="twelve columns">
                     <h3>{item.CompanyName}</h3>
                     <p className="info">
@@ -171,7 +198,7 @@ const Resume: React.FC = () => {
           {data.publications &&
             data.publications.map((item: any) => {
               return (
-                <div className="row item">
+                <div className="row item" key={`${item.Name}-${item.Time}`}>
                   <div className="twelve columns">
                     <h3>{item.Name}</h3>
                     <p className="info">
@@ -196,7 +223,7 @@ const Resume: React.FC = () => {
           {data.courses &&
             data.courses.map((item: any) => {
               return (
-                <div className="row item">
+                <div className="row item" key={`${item.Name}-${item.Time}`}>
                   <div className="twelve columns">
                     <h3>{item.Name}</h3>
                     <p className="info">
